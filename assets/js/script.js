@@ -1,4 +1,4 @@
-Hangman Functions
+//Hangman Functions
 
 function newGame();
 

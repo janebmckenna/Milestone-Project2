@@ -1,39 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+***
+[View live project Here](link to project)
 
-Welcome,
+Five minute fun/The idle playground is a simple browser based game website that allows people to spend a few minutes playing three simple games to pass the time and keep their minds engaged. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mock Up](screengrab here)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+- [User Experience UX](#user-experience-ux)
+  - [UX-strategy](#ux-strategy)
+  - [UX-scope](#ux-scope)
+  - [UX-structure](#ux-structure)
+  - [UX-skeleton](#ux-skeleton)
+  - [UX-surface](#ux-surface)
+- [Technologies-used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-## Codeanywhere Reminders
+# User Experience UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## UX-strategy
 
-`python3 -m http.server`
+The goal is to provide a simple website that allows users to pass he time playing simple browser based games. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**Site Owner Goals**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The website provides a means to develop coding and programming skills and potential future monitiosation through advertising. 
 
-`http_server`
+**User Goals**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Entertainment
+- Relaxation
+- Challenge
+- Pass the time
+- Free play
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**User Stories**
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+_As a FIRST TIME user of the site I want to be able to:_
+- Intuitively and easily navigate the site
+- Intuitively be able to play the games
+- Find help or instruction if nessicary
 
-To log into the Heroku toolbelt CLI:
+_As a RETURNING user of the site I want to be able to:_
+- Easily navifate to my favourite game
+- Send feedback and ideas for more games to the website owner
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## UX-scope
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## UX-structure
 
----
+## UX-skeleton
 
-Happy coding!
+** Wireframes **
+
+[View Wireframes](wireframes.md)
+
+## UX-surface
+
+# Technologies-used
+
+# Testing 
+[View Testing Documentation](testing.md)
+
+# Deployment
+
+# Credits

@@ -40,6 +40,7 @@ _As a FIRST TIME user of the site I want to be able to:_
 - Intuitively and easily navigate the site
 - Intuitively be able to play the games
 - Find help or instruction if nessicary
+- Play the games on a mobile device without the need for any additional downloads. 
 
 _As a RETURNING user of the site I want to be able to:_
 - Easily navifate to my favourite game

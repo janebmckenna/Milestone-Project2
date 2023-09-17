@@ -1,15 +1,19 @@
 let currentWord = '';
+let wordStatus;
 
 // function newGame();
 
 // function resetGame();
 
-function correctLetter(clickedLetter){
-    currentWord.forEach(function(letter, index){
-        if (letter === clickedLetter){
-            li[index].innerHTML = letter;
-        }
-    });
+function correctLetter(letter){
+    for (let i =0; i<= currentWord.length; i++){
+        if (letter === currentWord.at(i)) {
+            console.log(currentWord.at(i));
+            document.getElementsByTagName('li')[i+5].innerHTML = currentWord.at(i);
+            document.getElementsByTagName('li')[i+5].classList.add('guessed');
+            continue;
+        };
+    };
 };
 
 // function wrongLetter();
@@ -45,5 +49,3 @@ function checkLetter(clickedLetter){
     wrongLetter(clickedLetter);
    }
 };
-
-// module.exports = newWord;

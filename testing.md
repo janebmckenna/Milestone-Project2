@@ -21,6 +21,7 @@
 ## Bugs
 
 sendMail
+Display guessed letters - issue with li due to NAV
 
 
 [Return to README](README.md)

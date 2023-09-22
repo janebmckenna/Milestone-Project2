@@ -1,11 +1,15 @@
 let currentWord = '';
 let wordStatus;
+let incorrectGuess = 0;
 
 function newGame(){
     newWord();
+    resetGame();
 };
 
-// function resetGame();
+function resetGame(){
+
+};
 
 function correctLetter(letter){
     for (let i =0; i<= currentWord.length; i++){
@@ -18,7 +22,12 @@ function correctLetter(letter){
     };
 };
 
-// function wrongLetter();
+function wrongLetter(){
+    incorrectGuess++;
+    console.log(incorrectGuess);
+    document.getElementById('hangman-image').innerHTML = `<img src="assets/images/hangmanImg` + incorrectGuess +`.png" alt="Hangman Image">`;
+    
+};
 
 // function displayVictory();
 

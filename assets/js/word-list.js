@@ -24,75 +24,79 @@ const wordList = [
         hint: 'A loveable primate'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'painting',
+        hint: 'A work of art created with a brush'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'internet',
+        hint: 'Keeping the world connected '
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'laptop',
+        hint: 'A portable computer'
     },
     {
-        word: 'treaty',
-        hint: 'A pact between states'
+        word: 'computer',
+        hint: 'An electrontic device'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'crossbar',
+        hint: 'You may strike it playing football'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'bandaged',
+        hint: 'you may leave the hospital....'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'practice',
+        hint: 'makes perfect'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'embezzling',
+        hint: 'what are you doing with that money?'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'jackhammer',
+        hint: 'maybe you can dig up the footpath?'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'quizmaster',
+        hint: 'Asks all the questions'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'hijack',
+        hint: 'unlawfully sieze'
     },
     {
-        word: 'treaty',
-        hint: 'A pact between states'
+        word: 'quizzical',
+        hint: 'very curious'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'fizziness',
+        hint: 'caused by CO2 in a soft drink'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'squeeze',
+        hint: 'press firmly'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'pizzeria',
+        hint: 'A spot to grab your favourite round meal'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'bubble',
+        hint: 'a thin sphere'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'objectify',
+        hint: 'inappropriate behaviour to do someone but good poetry can do it to your feelings'
     },
     {
-        word: 'penguin',
-        hint: 'A loveable bird from the Antarctic'
+        word: 'workspace',
+        hint: 'a place to get stuff done'
+    },
+    {
+        word: 'adventure',
+        hint: 'an exciting or daring experience'
     },
 ]

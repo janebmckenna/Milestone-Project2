@@ -10,8 +10,10 @@ function sendMail(contactForm){
 
     }) .then(function (response) {
                 console.log('success - email sent', response);
+                alert('Your email has been sent - thank you have a great day!');
             }, function (error) {
                 console.log('failed - email not sent', error);
+            alert('Ops sorry there was a problem your email hasnt sent, please try again');
             });
     return false;
 };

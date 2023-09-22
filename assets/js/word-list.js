@@ -99,4 +99,8 @@ const wordList = [
         word: 'adventure',
         hint: 'an exciting or daring experience'
     },
+    {
+        word: 'sunset',
+        hint: 'a big ball of light disappears below the horizon'
+    },
 ]

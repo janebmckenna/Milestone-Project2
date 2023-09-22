@@ -85,6 +85,7 @@ footer a{
 }
 .guessed{
     border-color: transparent;
+    pointer-events: none;
 }
 
 .keyboard{

@@ -1,7 +1,9 @@
 let currentWord = '';
 let wordStatus;
 
-// function newGame();
+function newGame(){
+    newWord();
+};
 
 // function resetGame();
 
@@ -35,7 +37,7 @@ newWord();
 
 // function letterChoice();
 
-$('button').click(function(e){
+$('.keyboard > button').click(function(e){
     $(this).attr('disabled', true);
     checkLetter(this.innerHTML);
 })

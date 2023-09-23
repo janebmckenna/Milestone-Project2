@@ -42,6 +42,10 @@ img {
     align-self: center;
     padding: 20px;
 }
+
+nav a{
+    padding: 20px;
+}
 /* ** ------- Hangman ------- ** */
 
 .hangman-outer{
@@ -90,10 +94,6 @@ img {
     font-family: 'Roboto Mono', sans-serif;
     text-align: center;
 }
-.guessed{
-    border-color: transparent;
-    pointer-events: none;
-}
 
 .keyboard{
     display: flex;
@@ -114,11 +114,15 @@ img {
     background-color: #00C9A7;
     border-radius: 4px;
     text-transform: uppercase;
-    width: calc(100% / 9 - 5px);
+    width: calc(100% / 10 - 5px);
 }
+
 
 .hint-title{
     margin: 20px;
+    text-transform: uppercase;
+    font-family: 'Caveat', sans-serif;
+    font-weight: 100;
 }
 /* ---- DISPLAY WHEN GAME IS WON/LOST ----- */
 #win{
@@ -166,6 +170,10 @@ img {
     margin: 20px;
 }
 
+.reset-btn{
+    margin: 20px;
+}
+
 /* ----- MEDIA QUERIES ----- */
 @media screen and (max-width: 349px){
 
@@ -177,11 +185,55 @@ img {
             height: auto;
             width: 80vw;
             margin: auto;
-            overflow: hidden;
-        }
+            overflow: hidden;       
+    }
+    .letters {
+        margin-top: 100px;
+        list-style: none;
+        display: flex;
+        align-self: end;
+        gap: 10px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .keyboard button {
+        color: whitesmoke;
+        font-size: small;
+        font-weight: 300;
+        cursor: pointer;
+        outline: none;
+        padding: 4px;
+        border: 1px white solid;
+        background-color: #00C9A7;
+        border-radius: 2px;
+        text-transform: uppercase;
+        width: calc(100% / 9 - 4px);
+        max-width: fit-content;
+    }
 }
 
 @media screen and (max-width: 960px){
+    .hangman-image{
+        display: flex;
+    }
+    .hangman-image img{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
 
+    .game-box{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
+ .letters {
+     margin-top: 100px;
+     list-style: none;
+     display: flex;
+     align-self: end;
+     gap: 10px;
+     margin-bottom: 50px;
+     margin-left: 80px;
+ }
 

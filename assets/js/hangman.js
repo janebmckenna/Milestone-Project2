@@ -1,5 +1,4 @@
 let currentWord = '';
-let wordStatus;
 let incorrectGuess = 0;
 let maxGuesses = 8;
 let correctLetters = [];
@@ -61,8 +60,6 @@ function newWord(){
     $('.letters').html(word.split('').map(() => `<li class="letter"></li>`).join(''));
 };
 newWord();
-
-// function letterChoice();
 
 $('.keyboard > button').click(function(e){
     $(this).attr('disabled', true);

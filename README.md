@@ -77,3 +77,5 @@ the range of words. Second option similarly is simple to excecute but potentiall
 # Deployment
 
 # Credits
+
+giphy - gifs

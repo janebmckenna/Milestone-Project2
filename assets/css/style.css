@@ -93,6 +93,7 @@ footer a{
     gap: 5px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 .keyboard button{
@@ -124,6 +125,49 @@ img {
     padding: 20px;
 }
 
+#win{
+    position:fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.win-content{
+    display: grid;
+    background-color: aliceblue;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gif{
+    position: relative;
+    margin: auto;
+    display: block;
+}
+#loss{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.loss-content{
+    display: grid;
+    background-color: aliceblue;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.game-end{
+    display: block;
+    margin: auto;
+}
 @media screen and (max-width: 349px){
 
 }

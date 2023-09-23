@@ -10,11 +10,10 @@ function newGame(){
 };
 
 function resetGame(){
-    if (document.getElementsByTagName('li').classList.contains(guessed)){
-        document.getElementsByTagName('li').classList.remove(guessed);
-    };
-    document.getElementsByTagName('button').removeAttribute('disabled');
+    incorrectGuess = 0;
+    correctLetters = [];
     document.getElementById('hangman-image').innerHTML = `<img src="assets/images/hangmanImg0.png" alt="Hangman Image">`;
+    $('.keyboard > button').attr('disabled', false);
 };
 
 function correctLetter(letter){
@@ -22,7 +21,7 @@ function correctLetter(letter){
         if (letter === currentWord.at(i)) {
             console.log(currentWord.at(i));
             document.getElementsByTagName('li')[i+5].innerHTML = currentWord.at(i);
-            document.getElementsByTagName('li')[i+5].classList.add('guessed');
+            // document.getElementsByTagName('li')[i+5].classList.add('guessed');
             let add = correctLetters.push(letter);
             continue;
         };
@@ -38,9 +37,13 @@ function wrongLetter(){
     if (incorrectGuess === maxGuesses) return displayLoss();
 };
 
-// function displayVictory();
+function displayVictory(){
 
-// function displayLoss();
+};
+
+function displayLoss(){
+
+};
 
 // function gameOver(){
 //     if (true){

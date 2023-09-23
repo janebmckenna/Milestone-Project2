@@ -15,6 +15,7 @@ function resetGame(){
     $('.keyboard > button').attr('disabled', false);
     document.getElementById('win').style.display = ('none');
     document.getElementById('loss').style.display = ('none');
+    $('.hint').hide();
 };
 
 function correctLetter(letter){
@@ -40,19 +41,13 @@ function wrongLetter(){
 
 function displayVictory(){
     document.getElementById('win').style.display = ('flex');
+    document.getElementById('win-text').innerHTML = `That right, the word was: ${currentWord}`;
 };
 
 function displayLoss(){
     document.getElementById('loss').style.display = ('flex');
+    document.getElementById('loss-text').innerHTML = `The word was: ${currentWord}`;
 };
-
-// function gameOver(){
-//     if (true){
-//         displayVictory();
-//     } else if (false){
-//         displayLoss();
-//     };
-// };
 
 function newWord(){
     let {word, hint} = wordList[Math.floor(Math.random() * wordList.length)];
@@ -77,3 +72,7 @@ function checkLetter(clickedLetter){
     wrongLetter(clickedLetter);
    }
 };
+
+$('.hint-title').click(function(){
+    $('.hint').toggle('fast');
+})

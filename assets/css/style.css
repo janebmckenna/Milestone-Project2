@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&family=Roboto+Mono:wght@300&display=swap');
 
+/* 
+font-family: 'Caveat',
+cursive;
+font-family: 'Permanent Marker',
+cursive;
+font-family: 'Roboto Mono',
+monospace; */
 body{
     width: 100vw;
     margin: auto;
@@ -28,6 +35,13 @@ footer a{
     color: aliceblue;
 }
 
+img {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    align-self: center;
+    padding: 20px;
+}
 /* ** ------- Hangman ------- ** */
 
 .hangman-outer{
@@ -45,26 +59,19 @@ footer a{
     font-family: 'Permanent Marker', sans-serif;
     text-align: center;
 }
-/* .hangman-image{
-    max-width: 45%;
-} */
 
 .hangman-image img{
     max-width: 70vw;
     overflow: hidden;
 }
 
-.game-box{
-
-}
 .hint{
     font-family: 'Caveat', sans-serif;
     font-weight: 600;
     font-size: 2em;
+    display: none;
 }
-.hint p{
-    display: inline-block;
-}
+
 .letters{
     margin-top: 100px;
     list-style: none;
@@ -109,22 +116,11 @@ footer a{
     text-transform: uppercase;
     width: calc(100% / 9 - 5px);
 }
-/* 
-font-family: 'Caveat',
-cursive;
-font-family: 'Permanent Marker',
-cursive;
-font-family: 'Roboto Mono',
-monospace; */
 
-img {
-    height: 400px;
-    width: 400px;
-    overflow: hidden;
-    align-self: center;
-    padding: 20px;
+.hint-title{
+    margin: 20px;
 }
-
+/* ---- DISPLAY WHEN GAME IS WON/LOST ----- */
 #win{
     position:fixed;
     display: none;
@@ -141,6 +137,7 @@ img {
     padding: 30px;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .gif{
@@ -165,9 +162,11 @@ img {
     justify-content: center;
 }
 .game-end{
-    display: block;
-    margin: auto;
+    display: relative;
+    margin: 20px;
 }
+
+/* ----- MEDIA QUERIES ----- */
 @media screen and (max-width: 349px){
 
 }

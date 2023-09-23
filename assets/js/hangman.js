@@ -13,6 +13,8 @@ function resetGame(){
     correctLetters = [];
     document.getElementById('hangman-image').innerHTML = `<img src="assets/images/hangmanImg0.png" alt="Hangman Image">`;
     $('.keyboard > button').attr('disabled', false);
+    document.getElementById('win').style.display = ('none');
+    document.getElementById('loss').style.display = ('none');
 };
 
 function correctLetter(letter){
@@ -37,11 +39,11 @@ function wrongLetter(){
 };
 
 function displayVictory(){
-
+    document.getElementById('win').style.display = ('flex');
 };
 
 function displayLoss(){
-
+    document.getElementById('loss').style.display = ('flex');
 };
 
 // function gameOver(){

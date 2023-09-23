@@ -22,6 +22,7 @@
 
 sendMail
 Display guessed letters - issue with li due to NAV
+display mole.html all button presses
 
 
 [Return to README](README.md)

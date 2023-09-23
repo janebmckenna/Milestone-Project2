@@ -22,7 +22,7 @@ function correctLetter(letter){
     for (let i =0; i<= currentWord.length; i++){
         if (letter === currentWord.at(i)) {
             console.log(currentWord.at(i));
-            document.getElementsByTagName('li')[i+5].innerHTML = currentWord.at(i);
+            document.getElementsByTagName('li')[i+4].innerHTML = currentWord.at(i);
             // document.getElementsByTagName('li')[i+5].classList.add('guessed');
             let add = correctLetters.push(letter);
             continue;

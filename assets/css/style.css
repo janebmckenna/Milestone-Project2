@@ -164,6 +164,7 @@ nav a{
     padding: 30px;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .game-end{
     display: relative;

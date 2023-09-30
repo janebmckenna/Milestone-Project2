@@ -10,7 +10,7 @@ monospace; */
 body{
     width: 100vw;
     margin: auto;
-    background-color: #00C9A7;
+    background-color: #00c9a7;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -178,39 +178,107 @@ nav a{
     margin: 20px;
 }
 
+
+/* ** ------- Adds & Equals ------- ** */
+
+.maths-game{
+    width: 90vw;
+    padding: 50px 50px;
+    border-radius: 30px;
+    background-color: #ff5672;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.maths-logo{
+    font-size: 1.8rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 175px;
+    width: auto;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.maths-logo img{
+    height: 175px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.maths-game button{
+    border-radius: 10px;
+    margin: 5px;
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid #c7ff56;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.question-area{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.question-area input{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
 /* ----- MEDIA QUERIES ----- */
-@media screen and (max-width: 400px){
-    #current-word{
+@media screen and (max-width: 400px) {
+    #current-word {
         margin-left: -48px;
         margin-right: -48px;
         font-size: 12px;
     }
-    .letter{
+
+    .letter {
         width: 20px;
         border-bottom: 2px solid black;
         text-align: center;
     }
-    #keyboard{
+
+    #keyboard {
         margin-left: -50px;
         margin-right: -50px;
     }
-    .key{
+
+    .key {
         /* width: calc((100% + 100px) / 9 - 4px); */
         min-width: 22px;
         padding: 5px;
         margin: 2px;
         font-size: 1rem;
     }
+
+    .question-area {
+        width: 95%;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 540px) {
 
     img {
-            height: auto;
-            width: 80vw;
-            margin: auto;
-            overflow: hidden;       
+        height: auto;
+        width: 80vw;
+        margin: auto;
+        overflow: hidden;
     }
+
     .letters {
         margin-top: 100px;
         list-style: none;
@@ -220,6 +288,7 @@ nav a{
         margin-bottom: 50px;
         margin-left: 0px;
     }
+
     .keyboard button {
         color: whitesmoke;
         font-size: small;
@@ -234,30 +303,40 @@ nav a{
         width: calc(100% / 9 - 4px);
         max-width: fit-content;
     }
+    .question-area {
+        width: 80%;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 960px){
-    .hangman-image{
+@media screen and (max-width: 960px) {
+    .hangman-image {
         display: flex;
     }
-    .hangman-image img{
+
+    .hangman-image img {
         align-items: center;
         justify-content: center;
         margin: auto;
     }
 
-    .game-box{
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-    .letters {
-     margin-top: 100px;
-     list-style: none;
-     display: flex;
-     align-self: end;
-     gap: 10px;
-     margin-bottom: 50px;
-     margin-left: 80px;
- }
+    .game-box {
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
 
+    .letters {
+        margin-top: 100px;
+        list-style: none;
+        display: flex;
+        align-self: end;
+        gap: 10px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+    }
+    .question-area {
+        width: 80%;
+        margin: auto;
+    }
+}

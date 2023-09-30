@@ -38,42 +38,44 @@
                 <img src="assets/images/hangmanImg0.png" alt="Hangman Image">
             </div>
             <div class="game-box col-lg-6">
-                <ul class="letters">
+                <ul class="letters" id="current-word">
                 </ul>
                 <button class="hint-title">Hint: </button>
                 <p class="hint">test</p>
-                <div class="keyboard">
-                    <button class="btn">q</button>
-                    <button class="btn">w</button>
-                    <button class="btn">e</button>
-                    <button class="btn">r</button>
-                    <button class="btn">t</button>
-                    <button class="btn">y</button>
-                    <button class="btn">u</button>
-                    <button class="btn">i</button>
-                    <button class="btn">o</button>
-                    <button class="btn">p</button>
-                </div>
-                <div class="keyboard">
-                    <button class="btn">a</button>
-                    <button class="btn">s</button>
-                    <button class="btn">d</button>
-                    <button class="btn">f</button>
-                    <button class="btn">g</button>
-                    <button class="btn">h</button>
-                    <button class="btn">j</button>
-                    <button class="btn">k</button>
-                    <button class="btn">l</button>
-                </div>
-                <div class="keyboard">
-                    <button class="btn">z</button>
-                    <button class="btn">x</button>
-                    <button class="btn">c</button>
-                    <button class="btn">v</button>
-                    <button class="btn">b</button>
-                    <button class="btn">n</button>
-                    <button class="btn">m</button>
-                </div>
+                <div id="keyboard">
+                    <div class="keyboard">
+                        <button class="btn key">q</button>
+                        <button class="btn key">w</button>
+                        <button class="btn key">e</button>
+                        <button class="btn key">r</button>
+                        <button class="btn key">t</button>
+                        <button class="btn key">y</button>
+                        <button class="btn key">u</button>
+                        <button class="btn key">i</button>
+                        <button class="btn key">o</button>
+                        <button class="btn key">p</button>
+                    </div>
+                    <div class="keyboard">
+                        <button class="btn key" >a</button>
+                        <button class="btn key">s</button>
+                        <button class="btn key">d</button>
+                        <button class="btn key">f</button>
+                        <button class="btn key">g</button>
+                        <button class="btn key">h</button>
+                        <button class="btn key">j</button>
+                        <button class="btn key">k</button>
+                        <button class="btn key">l</button>
+                    </div>
+                    <div class="keyboard">
+                        <button class="btn key">z</button>
+                        <button class="btn key">x</button>
+                        <button class="btn key">c</button>
+                        <button class="btn key">v</button>
+                        <button class="btn key">b</button>
+                        <button class="btn key">n</button>
+                        <button class="btn key">m</button>
+                    </div>
+            </div>
             </div>
             <div>
                 <button class="btn btn-lrg btn-dark reset-btn" onclick="newGame()">New Game</button>

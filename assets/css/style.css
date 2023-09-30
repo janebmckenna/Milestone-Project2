@@ -176,8 +176,28 @@ nav a{
 }
 
 /* ----- MEDIA QUERIES ----- */
-@media screen and (max-width: 349px){
-
+@media screen and (max-width: 400px){
+    #current-word{
+        margin-left: -48px;
+        margin-right: -48px;
+        font-size: 12px;
+    }
+    .letter{
+        width: 20px;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+    #keyboard{
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    .key{
+        /* width: calc((100% + 100px) / 9 - 4px); */
+        min-width: 22px;
+        padding: 5px;
+        margin: 2px;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -228,7 +248,7 @@ nav a{
     justify-content: center;
     margin: auto;
 }
- .letters {
+    .letters {
      margin-top: 100px;
      list-style: none;
      display: flex;

@@ -103,4 +103,152 @@ const wordList = [
         word: 'sunset',
         hint: 'a big ball of light disappears below the horizon'
     },
+    {
+        word: 'elephant',
+        hint: 'a big grey animal'
+    },
+    {
+        word: 'microwave',
+        hint: 'ping the food is ready'
+    },
+    {
+        word: 'television',
+        hint: 'the box'
+    },
+    {
+        word: 'unicorn',
+        hint: 'a mythical creature'
+    },
+    {
+        word: 'crab',
+        hint: 'might be found under a rock on the beach'
+    },
+    {
+        word: 'butterfly',
+        hint: 'caterpillar to a ...'
+    },
+    {
+        word: 'caterpillar',
+        hint: 'before I was a butterfly'
+    },
+    {
+        word: 'potato',
+        hint: 'Irelands favourite root vegetable'
+    },
+    {
+        word: 'octopus',
+        hint: 'eight long tentacles'
+    },
+    {
+        word: 'handbag',
+        hint: 'used to carry personal belongings'
+    },
+    {
+        word: 'umbrella',
+        hint: 'stay out of the rain'
+    },
+    {
+        word: 'robot',
+        hint: 'AI may help them rise up'
+    },
+    {
+        word: 'pencil',
+        hint: 'a writing implement'
+    },
+    {
+        word: 'stapler',
+        hint: 'used to fasten paper'
+    },
+    {
+        word: 'notebook',
+        hint: 'a place to write it all down'
+    },
+    {
+        word: 'bathroom',
+        hint: 'you may pop to the loo'
+    },
+    {
+        word: 'kitchen',
+        hint: 'the heart of the home'
+    },
+    {
+        word: 'clown',
+        hint: 'seen at the circus'
+    },
+    {
+        word: 'circus',
+        hint: 'clowns, a bigtop, loads of fun'
+    },
+    {
+        word: 'acrobat',
+        hint: 'performs on the highwire'
+    },
+    {
+        word: 'blizzard',
+        hint: 'a snow storm'
+    },
+    {
+        word: 'bagpipes',
+        hint: 'traditional scottish instrument'
+    },
+    {
+        word: 'instrument',
+        hint: 'plays music'
+    },
+    {
+        word: 'bandwagon',
+        hint: 'hop on the ...'
+    },
+    {
+        word: 'daiquiri',
+        hint: 'a cocktail'
+    },
+    {
+        word: 'dwarves',
+        hint: 'the seven ...'
+    },
+    {
+        word: 'exodus',
+        hint: 'a mass ....'
+    },
+    {
+        word: 'galaxy',
+        hint: 'a .... of stars'
+    },
+    {
+        word: 'universe',
+        hint: 'the whole cosmos'
+    },
+    {
+        word: 'glowworm',
+        hint: 'an insect with luminescent organs'
+    },
+    {
+        word: 'luminescent',
+        hint: 'glow'
+    },
+    {
+        word: 'transcript',
+        hint: 'a factual documentation'
+    },
+    {
+        word: 'jackpot',
+        hint: 'you have hit the ...'
+    },
+    {
+        word: 'jockey',
+        hint: 'rides a horse'
+    },
+    {
+        word: 'jukebox',
+        hint: 'chose your song'
+    },
+    {
+        word: 'kiosk',
+        hint: 'buy your ticket here'
+    },
+    {
+        word: 'zodiac',
+        hint: 'signs of the ...'
+    },
 ]

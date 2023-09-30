@@ -69,3 +69,5 @@ function checkLetter(clickedLetter){
 $('.hint-title').click(function(){
     $('.hint').toggle('fast');
 })
+
+console.log(wordList.length)

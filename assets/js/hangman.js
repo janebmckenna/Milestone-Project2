@@ -21,20 +21,16 @@ function resetGame(){
 function correctLetter(letter){
     for (let i =0; i<= currentWord.length; i++){
         if (letter === currentWord.at(i)) {
-            console.log(currentWord.at(i));
-            document.getElementsByTagName('li')[i+4].innerHTML = currentWord.at(i);
-            // document.getElementsByTagName('li')[i+5].classList.add('guessed');
+            document.getElementsByTagName('li')[i].innerHTML = currentWord.at(i);
             let add = correctLetters.push(letter);
             continue;
         };
     };
-    console.log(correctLetters);
     if (correctLetters.length === currentWord.length) return displayVictory();
 };
 
 function wrongLetter(){
     incorrectGuess++;
-    console.log(incorrectGuess);
     document.getElementById('hangman-image').innerHTML = `<img src="assets/images/hangmanImg` + incorrectGuess +`.png" alt="Hangman Image">`;
     if (incorrectGuess === maxGuesses) return displayLoss();
 };
@@ -51,7 +47,6 @@ function displayLoss(){
 
 function newWord(){
     let {word, hint} = wordList[Math.floor(Math.random() * wordList.length)];
-    console.log(word);
     currentWord = word;
     $('.hint').html(hint);
     $('.letters').html(word.split('').map(() => `<li class="letter"></li>`).join(''));
@@ -65,10 +60,8 @@ $('.keyboard > button').click(function(e){
 
 function checkLetter(clickedLetter){
    if(currentWord.includes(clickedLetter)){
-    console.log(clickedLetter, 'is in the word');
     correctLetter(clickedLetter);
    } else {
-    console.log(clickedLetter, 'is not in the word');
     wrongLetter(clickedLetter);
    }
 };

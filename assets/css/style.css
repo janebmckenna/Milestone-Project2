@@ -53,9 +53,10 @@ nav a{
     padding: 50px 50px;
     border-radius: 30px;
     background-color: #B39CD0;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 .hangman-title{
     font-size: 2em;
@@ -123,6 +124,8 @@ nav a{
     text-transform: uppercase;
     font-family: 'Caveat', sans-serif;
     font-weight: 100;
+    border-radius: 4px;
+    color: black;
 }
 /* ---- DISPLAY WHEN GAME IS WON/LOST ----- */
 #win{

@@ -19,7 +19,9 @@
     <div class="container maths-game">
         <div class="row">
             <h1 class="maths-logo"><img src="assets/images/adds&equals1.png" alt="logo for adds & equals"></h1>
-            <button class="btn">New Game</button>
+        </div>
+        <div class="row math-btn">
+            <button class="btn math-btn" onclick="runGame()">New Game</button>
         </div>
         <div class="row">
             <div class="question-area">
@@ -28,22 +30,44 @@
                 <span id="operand2">0</span>
                 <span>=</span>
                 <p class="answer-message">Enter Answer:</p>
-                <input type="number" id="answer-box">
+                <input type="number" id="answer-box" autofocus="autofocus">
             </div>
-            <button class="btn">Submit Answer</button>
+        </div>
+        <div class="row math-btn">
+            <button class="btn math-btn" onclick="checkAnswer()">Submit Answer</button>
         </div>
         <div class="row score-area">
             <p class="scores">Correct Answers <span id="score">0</span></p>
             <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
         </div>
     </div>
+        <div id="win">
+            <div class="win-content">
+                <iframe src="https://giphy.com/embed/3o85xK9ReqLLQD8GL6" width="188" height="240" frameBorder="0"
+                    class="gif"></iframe>
+                <br>
+                <h2 class="game-end">Congratulations! You got it right!</h2>
+                <button class="btn btn-lrg btn-outline-secondary game-endonclick="runGame()" autofocus>Play Again</button>
+            </div>
+        </div>
+        <div id="loss">
+            <div class="loss-content">
+                <iframe src="https://giphy.com/embed/meJM4BcF1K6elGxBnn" width="240" height="240" frameBorder="0"
+                    class="gif"></iframe>
+                <br>
+                <h2 class="game-end">Game Over</h2>
+                <br>
+                <p class="game-end" id="loss-text"></p>
+                <br>
+                <button class="btn btn-lrg btn-dark game-end" onclick="runGame()" autofocus>Play Again</button>
+            </div>
+        </div>
     <footer>
         <div class="container-fluid footer">
             <a href="contact.html" target="_blank"><i class="fa-regular fa-envelope"></i> Contact Us</a>
         </div>
     </footer>
-    <script src="assets/js/word-list.js"></script>
-    <script src="assets/js/hangman.js"></script>
+    <script src="assets/js/maths.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>

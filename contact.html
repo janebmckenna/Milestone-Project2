@@ -19,40 +19,7 @@
 <body>
     <nav class="navbar bg-dark border-bottom border-body navbar-expand-md" data-bs-theme="dark">
         <a href="index.html" class="navbar-brand logo">Home</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2 d-md-none"><a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item mr-2"><a href="hangman.html" class="nav-link">Play Hangman</a>
-                </li>
-                <li class="nav-item mr-2"><a href="memory.html" class="nav-link">Play Memory</a></li>
-                <li class="nav-item mr-2"><a href="mole.html" class="nav-link">Play Whack a Mole</li>
-                <li class="active nav-item mr-2"><a href="contact.html" class="nav-link">Contact Us</a></li>
-            </ul>
-        </div>
     </nav>
-<!-- -- Modal --    
-<div class="modal" tabindex="-1" role="dialog" id="modal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Thanks for your Email</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>Your email has been sent, thank you for contacting us. If you requested a response you will hear back from us soon. Hope you have a great day!</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
 <!-- Contact form -->
     <div class="container contact-form">
         <div class="row">
@@ -73,7 +40,7 @@
                     <label for="no" class="form-label">No</label>
                     <input type="radio" id="no" name="response" value="wouldn't like to hear back">
                     <br>
-                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="What's on your mind?"></textarea>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="What's on your mind?" required></textarea>
                     <br>
                     <p>What does your feedback relate to?</p>
                     <input type="checkbox" id="game-problem" name="subject" value="Problem with a game">

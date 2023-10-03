@@ -251,4 +251,24 @@ const wordList = [
         word: 'zodiac',
         hint: 'signs of the ...'
     },
+    {
+        word: 'hotel',
+        hint: 'a place to stay overnight'
+    },
+    {
+        word: 'overnight',
+        hint: 'between one day and the next'
+    },
+    {
+        word: 'poster',
+        hint: 'an advert on the wall'
+    },
+    {
+        word: 'mirror',
+        hint: 'a reflection'
+    },
+    {
+        word: 'reflection',
+        hint: 'you will see it in the mirror'
+    },
 ]

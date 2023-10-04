@@ -29,6 +29,8 @@ body{
 
 .ip-text{
     font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 .footer{
     background-color: black;
@@ -49,6 +51,9 @@ footer a{
     color: aliceblue;
 }
 
+.game-choice{
+    text-align: center;
+}
 img {
     height: 400px;
     width: 400px;

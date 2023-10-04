@@ -1,6 +1,6 @@
 let currentWord = '';
 let incorrectGuess = 0;
-let maxGuesses = 8;
+const maxGuesses = 8;
 let correctLetters = [];
 
 function newGame() {
@@ -17,6 +17,7 @@ function resetGame() {
     document.getElementById('loss').style.display = ('none');
     $('.hint').hide();
 };
+
 /**
  * 
  * @param {string} letter letter chosen by the user

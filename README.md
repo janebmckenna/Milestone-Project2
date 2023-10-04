@@ -56,17 +56,29 @@ _As a RETURNING user of the site I want to be able to:_
 
 Due to the simple layout of the site I didnt feel the need to include a classic Nav bar with navigation to the two games included on the site. I felt that the 'Choose Game' link to the home page was in keeping with the retro feel of the site. 
 
-**Idle playground Logo**
+**The Idle Playground Logo**
+
+This is a retro logo for the idle playground with a simple tag line to indicate the relaxed nature of games, stubbley conveys the message that the games are just a bit of fun to play while you're wasting some time. 
 
 **Game Play Buttons**
 
+Initally MPV is with two games Play Hangman and Play Adds and Equals
 
 **Contact Us**
 
+Simple link which opens in a new window to allow users to send feedback. The simple form uses and API email.js to forward the details to me. 
+
 **Hangman Game**
+
+Simple game written using Javascript, HTML and CSS. The keyboard is button based on the screen which allows the keys to visually disable for the user when they've already been played. The Hint button is optional to display and resets to hidden when a new game is started. 
 
 **Adds & Equals Game**
 
+Simple maths game written using, Javascript, HTML and CSS. The game randomly chooses an addition, subtraction, multiplication or division game with two random numbers. The game tallys the number of correct or incorrect responses. 
+
+**Win/Loss Screen**
+
+Once the game is won or lost the win/loss screen appears with confirmation and the correct answer as appropriate. Within the Adds & Equals game I have set the screen to automatically timeout after 2 seconds and start a new game, this is due to the fact that I've set the input as the focus when the DOM loads and I dont want the user to have to click out of the input box. 
 
 **Hangman game - Generating words**
   1. Create a list of words and hints in an array.
@@ -77,13 +89,14 @@ Pro to the first option is the simplicity of the idea, easy to excectute and imp
 Con is that it is limiting for the player as extended play may make them famililar with 
 the range of words. Second option similarly is simple to excecute but potentially also limiting for the player. The second option does has the added benefit for the player to allow them to choose the category of word they wish to play with. The third option extends the potential logevity of the game as there would be a much wider number of possible words. To this point I havent been able to find one that could also provide a hint rather than a definition to the player. Without a hint the game maybe too difficult but with a definition too easy. 
 
+**Future Improvements**
 
 
 ## UX-structure
 
 ## UX-skeleton
 
-** Wireframes **
+**Wireframes**
 
 [View Wireframes](wireframes.md)
 

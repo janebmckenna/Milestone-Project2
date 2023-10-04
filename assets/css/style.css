@@ -16,7 +16,20 @@ body{
     display: flex;
     flex-direction: column;
 }
+.ip-logo{
+    text-align: center;
+}
 
+.ip-logo img{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.ip-text{
+    font-family: 'Roboto Mono', sans-serif;
+}
 .footer{
     background-color: black;
 }
@@ -40,8 +53,8 @@ img {
     height: 400px;
     width: 400px;
     overflow: hidden;
-    padding: 20px;
-    margin: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     border-radius: 10%;
 }
 

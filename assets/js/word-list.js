@@ -271,4 +271,48 @@ const wordList = [
         word: 'reflection',
         hint: 'you will see it in the mirror'
     },
+    {
+        word: 'chocolate',
+        hint: 'a sweet milky treat'
+    },
+    {
+        word: 'investment',
+        hint: 'a way to grow your money'
+    },
+    {
+        word: 'dictionary',
+        hint: 'all the words'
+    },
+    {
+        word: 'statue',
+        hint: 'still as a ....'
+    },
+    {
+        word: 'candle',
+        hint: 'a waxed flame'
+    },
+    {
+        word: 'keycard',
+        hint: 'unlock the door'
+    },
+    {
+        word: 'curtain',
+        hint: 'block light from a window'
+    },
+    {
+        word: 'breadroll',
+        hint: 'served with soup'
+    },
+    {
+        word: 'hangman',
+        hint: 'oh the irony'
+    },
+    {
+        word: 'socket',
+        hint: 'plug in to extract electricity'
+    },
+    {
+        word: 'fridge',
+        hint: 'keep food cold'
+    },
 ]

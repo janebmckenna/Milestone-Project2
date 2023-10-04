@@ -1,10 +1,12 @@
+# The Idle Playground
+[View live project Here](https://janebmckenna.github.io/Milestone-Project2/index.html)
 ***
-[View live project Here](link to project)
 
-Five minute fun/The idle playground is a simple browser based game website that allows people to spend a few minutes playing simple games to pass the time and keep their minds engaged. 
+The idle playground is a simple retro style browser based game website that allows people to spend a few minutes playing simple games to pass the time and keep their minds engaged. 
 
 ![Mock Up](screengrab here)
 
+- [The Idle Playground](#the-idle-playground)
 - [User Experience UX](#user-experience-ux)
   - [UX-strategy](#ux-strategy)
   - [UX-scope](#ux-scope)
@@ -47,6 +49,24 @@ _As a RETURNING user of the site I want to be able to:_
 - Send feedback and ideas for more games to the website owner
 
 ## UX-scope
+
+**Existing Features**
+
+**Home/Choose Game Page**
+
+Due to the simple layout of the site I didnt feel the need to include a classic Nav bar with navigation to the two games included on the site. I felt that the 'Choose Game' link to the home page was in keeping with the retro feel of the site. 
+
+**Idle playground Logo**
+
+**Game Play Buttons**
+
+
+**Contact Us**
+
+**Hangman Game**
+
+**Adds & Equals Game**
+
 
 **Hangman game - Generating words**
   1. Create a list of words and hints in an array.

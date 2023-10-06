@@ -50,6 +50,7 @@ _As a RETURNING user of the site I want to be able to:_
 
 ## UX-scope
 The site will be written using html and css with javascript controlling the game and site functionality. 
+
 **Existing Features**
 
 **Home/Choose Game Page**
@@ -62,7 +63,7 @@ This is a retro logo for the idle playground with a simple tag line to indicate 
 
 **Game Play Buttons**
 
-Initally MPV is with two games Play Hangman and Play Adds and Equals
+Inital MPV will be two games Play Hangman and Play Adds and Equals
 
 **Contact Us**
 
@@ -107,6 +108,9 @@ Buttons are used to naviagte game states allowing users to start a new game at w
 **Footer**
 
 I've chosen to use the tradional footer space to house a contact us link which opens in a new tab and allows users to provide feedback and ideas to me. 
+
+**Win/Loss Screens**
+
 
 ## UX-skeleton
 
@@ -154,5 +158,18 @@ To deploy this website using source files:
 If you wish to create a fork of this repository advice can be found [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 # Credits
+**Content**
+
+- I used [colormind.io](http://colormind.io/) to decide on the colour scheme of the site, to achieve the retro feel I intended. 
+- Icons were sourced from [Font Awesome](https://fontawesome.com)
+- My fonts were taken from [Google Fonts](https://fonts.google.com/)
+- [Bootstrap Version 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+- Wireframes were created using [Balsamiq](https://balsamiq.com/)
+
+**Code**
+
+- While writing the 'Adds & Equals' section of the project I referred back to pieces of code I had written during the course for the Love Maths project. I wanted to improve on the game by making it randomly generate the type of game. 
+
 
 giphy - gifs
+

@@ -4,7 +4,7 @@
 
 The idle playground is a simple retro style browser based game website that allows people to spend a few minutes playing simple games to pass the time and keep their minds engaged. 
 
-![Mock Up](screengrab here)
+![Mock Up](assets/images/wireframes/mock-up.png)
 
 - [The Idle Playground](#the-idle-playground)
 - [User Experience UX](#user-experience-ux)
@@ -49,7 +49,7 @@ _As a RETURNING user of the site I want to be able to:_
 - Send feedback and ideas for more games to the website owner
 
 ## UX-scope
-
+The site will be written using html and css with javascript controlling the game and site functionality. 
 **Existing Features**
 
 **Home/Choose Game Page**
@@ -94,7 +94,25 @@ the range of words. Second option similarly is simple to excecute but potentiall
 
 ## UX-structure
 
+**Navigation**
+
+Due to the nature of the game site, I have deemed tradional navigation of the site unneccisary instead using the navigation bar to house 'Choose Game'. 
+
+Buttons are used to naviagte game states allowing users to start a new game at will. 
+
+**Game Pages**
+
+
+
+**Footer**
+
+I've chosen to use the tradional footer space to house a contact us link which opens in a new tab and allows users to provide feedback and ideas to me. 
+
 ## UX-skeleton
+
+**Design Choices**
+
+I have chosen a retro style for the site. From the simple retro logo, the basic hangman graphics and the overall color choices, fonts and style of the site. 
 
 **Wireframes**
 
@@ -104,10 +122,36 @@ the range of words. Second option similarly is simple to excecute but potentiall
 
 # Technologies-used
 
+- **Languages:** HTML, CSS, JavaScript
+- **Libaries:** jQuery, bootstrap
+- **Code Anywhere:** used as a cloud code editor.
+- **GitHub:** used as a cloud based code repository.
+- **GitHub Pages** was used to deploy the site.
+
+
 # Testing 
 [View Testing Documentation](testing.md)
 
 # Deployment
+The Website has been deployed using GitHub Pages [Here](https://janebmckenna.github.io/Milestone-Project2/index.html) using the method below:
+
+- I logged into my GitHub account.
+- I opened my repository for this site.
+- Within the repository I selected 'Settings'
+- I navigated to 'Pages' within 'Settings'
+- I selected 'Deploy from a branch' from the source menu then the 'Main' branch along with the 'root' folder.
+- I then saved the options to deploy the site.
+
+To deploy this website using source files:
+
+- Go to the repository [Here](https://github.com/janebmckenna/Milestone-Project2)
+- Clone the repository onto your local device by
+  - Click 'Code'
+  - Chose 'Download Zip'
+- Open the Zip file on your device
+- Right click on the 'index.html' file and open with any browser.
+
+If you wish to create a fork of this repository advice can be found [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 # Credits
 

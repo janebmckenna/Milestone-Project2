@@ -20,9 +20,9 @@
 
 ## Bugs
 
-sendMail
-Display guessed letters - issue with li due to NAV
-display mole.html all button presses
+sendMail \
+Display guessed letters - issue with li due to NAV\
+display mole.html all button presses\
 display issues on mobile
 
 

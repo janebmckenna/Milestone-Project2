@@ -1,3 +1,4 @@
+// ----- List of words for the hangman game -----
 const wordList = [
     {
         word: 'penguin',
@@ -37,7 +38,7 @@ const wordList = [
     },
     {
         word: 'computer',
-        hint: 'An electrontic device'
+        hint: 'An electronic device'
     },
     {
         word: 'crossbar',
@@ -65,7 +66,7 @@ const wordList = [
     },
     {
         word: 'hijack',
-        hint: 'unlawfully sieze'
+        hint: 'unlawfully seize'
     },
     {
         word: 'quizzical',
@@ -189,7 +190,7 @@ const wordList = [
     },
     {
         word: 'bagpipes',
-        hint: 'traditional scottish instrument'
+        hint: 'traditional Scottish instrument'
     },
     {
         word: 'instrument',
@@ -315,4 +316,52 @@ const wordList = [
         word: 'fridge',
         hint: 'keep food cold'
     },
-]
+    {
+        word: 'couch',
+        hint: 'comfortable seat for multiple people'
+    },
+    {
+        word: 'plant',
+        hint: 'living but not an animal'
+    },
+    {
+        word: 'ornament',
+        hint: 'an accessory to make the place beautiful'
+    },
+    {
+        word: 'skyline',
+        hint: 'outline on the horizon'
+    },
+    {
+        word: 'cushion',
+        hint: 'a soft stuffed pocket of material'
+    },
+    {
+        word: 'director',
+        hint: 'a person in charge'
+    },
+    {
+        word: 'manager',
+        hint: 'a person in charge'
+    },
+    {
+        word: 'mouse',
+        hint: 'a small rodent'
+    },
+    {
+        word: 'hoodie',
+        hint: 'an article of clothing'
+    },
+    {
+        word: 'zebra',
+        hint: 'a stripped animal'
+    },
+    {
+        word: 'crocodile',
+        hint: 'reptile that lives in water'
+    },
+    {
+        word: 'teabag',
+        hint: 'ingredient in a hot drink'
+    },
+];

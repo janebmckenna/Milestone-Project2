@@ -6,6 +6,7 @@ document.getElementById('answer-box').addEventListener('keydown', function(event
 });
 runGame();
 
+
 function runGame(){
     let gameType = Math.floor(Math.random()* 4) + 1;
     let num1 = Math.floor(Math.random() *25) + 1;

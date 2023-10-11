@@ -59,7 +59,7 @@ Due to the simple layout of the site I didnt feel the need to include a classic 
 
 **The Idle Playground Logo**
 
-This is a retro logo for the idle playground with a simple tag line to indicate the relaxed nature of games, stubbley conveys the message that the games are just a bit of fun to play while you're wasting some time. 
+This is a retro logo for the idle playground with a simple tag line to indicate the relaxed nature of the games and subtly conveys the message that the games are just a bit of fun to play while you're passing some time. 
 
 **Game Play Buttons**
 
@@ -71,7 +71,7 @@ Simple link which opens in a new window to allow users to send feedback. The sim
 
 **Hangman Game**
 
-Simple game written using Javascript, HTML and CSS. The keyboard is button based on the screen which allows the keys to visually disable for the user when they've already been played. The Hint button is optional to display and resets to hidden when a new game is started. 
+Simple game written using Javascript, HTML and CSS. The keyboard is button based on the screen which allows the keys to visually disable for the user when they've already been played. The user has the option to trigger the Hint button to display a hint and resets to hidden when a new game is started. 
 
 **Adds & Equals Game**
 

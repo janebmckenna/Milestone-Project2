@@ -105,3 +105,9 @@ function incrementLoss(){
     let oldScore = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++oldScore;
 }
+
+function resetGame(){
+    document.getElementById('score').innerHTML='0';
+    document.getElementById('incorrect').innerHTML='0';
+    runGame();
+}

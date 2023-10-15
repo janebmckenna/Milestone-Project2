@@ -24,11 +24,15 @@
 |Hangman blank letters are visable as the game is played|Yes|Yes|Yes|Yes|Yes| Yes|Screens under 250px wide the game becomes unplayable - added media query to alert user in this senario|
 
 
-|**Devices Tested Using Chrome Developer Tools**|
-|-----|
-|Galaxy S9+|
+|**Additional Devices Tested Using Chrome Developer Tools**|**Responsive Observations**
+|-----|-----|
+|Galaxy S9+|P button on hangman game moves to a new line|
+|Galaxy S20 Ultra|
 |Pixel 5|
 |iPad Air|
+|iPad Mini|
+|Surface Pro 7|
+|Responsive widths to assess breakpoint issues|
 
 
 

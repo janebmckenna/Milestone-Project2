@@ -391,6 +391,16 @@ form{
     .math-btn{
         font-size: 10px;
     }
+        .question-area {
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+    }
+    .score-area{
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -422,6 +432,12 @@ form{
     .question-area {
         width: 80%;
         margin: auto;
+        font-size: 20px;
+    }
+    .score-area{
+        width: 80%;
+        margin: auto;
+        font-size: 20px;
     }
 }
 

@@ -20,7 +20,7 @@
 |Contact form opens in a new window| Yes| Yes|Yes|Yes|Yes|Yes|Yes|
 |Contact form won't submit without appropriate information| Yes | Yes|Yes|Yes|Yes|Yes|Yes|
 |Alert appears when form is submitted|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|Yes|Yes|Yes|
+|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|Yes|Yes|Under 320px the buttons begin to move lines. I made the deccission not to adjust the size of the buttons to ensure the game remains playable|
 |Hangman blank letters are visable as the game is played|Yes|Yes|Yes|Yes|Yes| Yes|Screens under 250px wide the game becomes unplayable - added media query to alert user in this senario|
 
 
@@ -40,7 +40,7 @@
 
 |**Feature**     |**Action**     |**Expected Behaviour**     |**Result**     |
 |----------------|---------------|---------------------------|---------------|
-|Nav Bar|Click Chose Game|Navigates to index.html|Pass|
+|Nav Bar|Click Choose Game|Navigates to index.html|Pass|
 |Footer|Click contact us|Opens contact.html in a new window|Pass|
 |Game Play buttons|Click Play Hangman|Opens hangman game in the same window|Pass|
 |Game Play buttons|Click Play Adds & Equals|Opens Adds & Equals game in the same window|Pass|
@@ -66,6 +66,17 @@
 |Loss Screen - Adds & Equals|Click Play Again|Loss screen disappears and a new Adds & Equals game is displayed|Pass|
 
 ## User Story Validation
+
+|**User Story**|**Outcome**|
+|-----|-----|
+|_As a FIRST TIME user of the site I want to be able to:_|
+|Intuitively and easily navigate the site|The layout of the site is simple|
+|Intuitively be able to play the game/games|Users|
+|Find help or instruction if necessary|
+|Play the games on a mobile device without the need for any additional downloads.|
+|_As a RETURNING user of the site I want to be able to:_|
+|Easily navigate to my favourite game|
+|Send feedback and ideas for more games to the website owner|
 
 ## Lighthouse Audit
 

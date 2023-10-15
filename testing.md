@@ -16,18 +16,18 @@
 
 |**Testing** |**iPhone12 safari** |**iPad Pro 9.7" safari**|**MacBook Air Chrome**|**MacBook Air Safari**|**Lenovo MS OS Edge**|**Lenovo MS OS Edge**|**Chrome Developer Tools**|
 |-----|-----|-----|-----|-----|-----|-----|-----|
-|Responsive| Yes| Yes|Yes|Yes|
-|Contact form opens in a new window| Yes| Yes|Yes|Yes|
-|Contact form won't submit without appropriate information| Yes | Yes|Yes|Yes|
-|Alert appears when form is submitted|Yes|Yes|Yes|Yes|
-|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|
+|Responsive| Yes| Yes|Yes|Yes|Yes|Yes|Yes|
+|Contact form opens in a new window| Yes| Yes|Yes|Yes|Yes|Yes|Yes|
+|Contact form won't submit without appropriate information| Yes | Yes|Yes|Yes|Yes|Yes|Yes|
+|Alert appears when form is submitted|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|Yes|Yes|Yes|
 |Hangman blank letters are visable as the game is played|Yes|Yes|Yes|Yes|Yes| Yes|Screens under 250px wide the game becomes unplayable - added media query to alert user in this senario|
 
 
 |**Additional Devices Tested Using Chrome Developer Tools**|**Responsive Observations**
 |-----|-----|
-|Galaxy S9+|P button on hangman game moves to a new line|
-|Galaxy S20 Ultra|
+|Galaxy S9+|P button on hangman game moves to a new line (under 320px)|
+|Galaxy S20 Ultra|P button on hangman game moves to a new line(under320px)|
 |Pixel 5|
 |iPad Air|
 |iPad Mini|

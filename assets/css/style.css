@@ -306,7 +306,7 @@ form{
     .key {
         /* width: calc((100% + 100px) / 9 - 4px); */
         min-width: 22px;
-        padding: 5px;
+        padding: 4px;
         margin: 2px;
         font-size: 1rem;
     }
@@ -351,7 +351,10 @@ form{
         margin-bottom: 50px;
         margin-left: 0px;
     }
-
+    #keyboard {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
     .keyboard button {
         color: whitesmoke;
         font-size: small;
@@ -365,6 +368,13 @@ form{
         text-transform: uppercase;
         width: calc(100% / 9 - 4px);
         max-width: fit-content;
+    }
+    .key {
+        width: calc((100% + 100px) / 9 - 4px);
+        min-width: 22px;
+        padding: 4px;
+        margin: 2px;
+        font-size: 1rem;
     }
     .question-area {
         max-width: 80%;
@@ -390,16 +400,6 @@ form{
     }
     .math-btn{
         font-size: 10px;
-    }
-        .question-area {
-        width: 80%;
-        margin: auto;
-        font-size: 15px;
-    }
-    .score-area{
-        width: 80%;
-        margin: auto;
-        font-size: 15px;
     }
 }
 
@@ -432,12 +432,12 @@ form{
     .question-area {
         width: 80%;
         margin: auto;
-        font-size: 20px;
+        font-size: 15px;
     }
     .score-area{
         width: 80%;
         margin: auto;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 

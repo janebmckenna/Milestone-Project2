@@ -12,6 +12,26 @@
 
 ## Manual Testing
 
+**Device and Browser Testing**
+
+|**Testing** |**iPhone12 safari** |**iPad Pro 9.7" safari**|**MacBook Air Chrome**|**MacBook Air Safari**|**Lenovo MS OS Edge**|**Lenovo MS OS Edge**|**Chrome Developer Tools**|
+|-----|-----|-----|-----|-----|-----|-----|-----|
+|Responsive| Yes| Yes|Yes|Yes|
+|Contact form opens in a new window| Yes| Yes|Yes|Yes|
+|Contact form won't submit without appropriate information| Yes | Yes|Yes|Yes|
+|Alert appears when form is submitted|Yes|Yes|Yes|Yes|
+|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|
+|Hangman blank letters are visable as the game is played|Yes|Yes|Yes|Yes|Yes| Yes|Screens under 250px wide the game becomes unplayable - added media query to alert user in this senario|
+
+
+|**Devices Tested Using Chrome Developer Tools**|
+|-----|
+|Galaxy S9+|
+|Pixel 5|
+|iPad Air|
+
+
+
 **Manual Testing of User Actions**
 
 |**Feature**     |**Action**     |**Expected Behaviour**     |**Result**     |
@@ -34,8 +54,8 @@
 |Contact Us Page|Click Send with non email text in email field|Pop up: Please include an '@' in the email address |Pass|
 |Contact Us Page|Click Send without toggling a contact radio button |Pop up: Please select one of these options |Pass|
 |Contact Us Page|Click Send without filling in 'whats on your mind'|Pop up: Please Fill in this Field |Pass|
-|Contact Us Page|Click Send without sellecting what the feedback is in relation to|As this is not essential, form submits and alert appears Your email has been sent - thank you have a great day!|Pass|
-|Contact Us Page|Click Send with all fields provided |form submits and alert appears Your email has been sent - thank you have a great day!|Pass|
+|Contact Us Page|Click Send without sellecting what the feedback is in relation to|As this is not essential, form submits and alert appears: Your email has been sent - thank you have a great day!|Pass|
+|Contact Us Page|Click Send with all fields provided |form submits and alert appears: Your email has been sent - thank you have a great day!|Pass|
 |Win Screen - Hangman|Click Play Again|Win screen disappears and a new Hangman game is displayed|Pass|
 |Loss Screen - Hangman|Click Play Again|Loss screen disappears and a new Hangman game is displayed|Pass|
 |Win Screen - Adds & Equals|Click Play Again|Win screen disappears and a new Adds & Equals game is displayed|Pass|
@@ -52,7 +72,7 @@
 |**Bug**|**Resolution**|
 |-----|-----|
 |sendMail|Write better notes to myself on what bugs I fixed|
-|Correctly guessed letters not displaying in the correct position|I had forgotten to include the li items used in the Nv when I calculated the code for displayGuessedLetters|
+|Correctly guessed letters not displaying in the correct position|I had forgotten to include the li items used in the Nav when I calculated the code for displayGuessedLetters|
 |Unused page called mole.html displaying on every button press|I missed a closing angle bracket on a holding nav item|
 |Hangman game whilst responsive to the screen size was unplayable due to the small buttons and word display| refactored the code to ensure word and the buttons displayed correctly on small screens and remained playable|
 |Maths game submitting empty field|As I had an autofocus on the input field the maths game was submitting empty fields when the win or loss screens were displayed. I tried adding a required field to the input which didnt work. To solve the problem I amended the event listener to not run check answer when the field was empty|

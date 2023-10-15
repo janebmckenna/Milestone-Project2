@@ -1,4 +1,6 @@
-// ----- List of words for the hangman game -----
+/**
+ * List of words for the hangman game
+ */
 const wordList = [
     {
         word: 'penguin',

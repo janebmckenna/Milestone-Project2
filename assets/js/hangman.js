@@ -18,11 +18,11 @@ function resetGame() {
     $('.hint').hide();
 };
 
-/**
- * 
- * @param {string} letter letter chosen by the user
- * @returns victory messge if the letter completes the hangman game
- */
+// /**
+//  * 
+//  * @param {string} letter letter chosen by the user
+//  * @returns victory messge if the letter completes the hangman game
+//  */
 function correctLetter(letter) {
     for (let i = 0; i <= currentWord.length; i++) {
         if (letter === currentWord.at(i)) {

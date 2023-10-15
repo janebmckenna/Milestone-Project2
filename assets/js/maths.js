@@ -1,11 +1,14 @@
 // ----- Listen for the enter key so that the user can use the keypad intead of the mouse ----
 document.getElementById('answer-box').addEventListener('keydown', function(event){
     if (event.key === 'Enter'){
-        checkAnswer();
+        if (document.getElementById('answer-box').value == ""){
+            console.log('empty answer box')
+            alert ("Enter your answer please");
+            return false;
+        } else checkAnswer();
     } 
 });
 runGame();
-
 
 function runGame(){
     let gameType = Math.floor(Math.random()* 4) + 1;
@@ -58,12 +61,10 @@ function displayDivisionQuestion(operand1, operand2) {
 }
 
 function checkAnswer(){
-   console.log('checking answer');
    let answer = parseInt(document.getElementById('answer-box').value);
    let correctAnswer = calculateAnswer();
    let isCorrect = answer === correctAnswer[0];
-
-   if(isCorrect){
+     if(isCorrect){
      document.getElementById('win').style.display = ('flex');
      incrementScore();
      setTimeout(runGame, 2000);
@@ -73,7 +74,6 @@ function checkAnswer(){
        incrementLoss();
        setTimeout(runGame, 2000);
    }
-   console.log(correctAnswer)
 };
 
 function calculateAnswer(){

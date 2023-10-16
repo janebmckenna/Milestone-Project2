@@ -455,7 +455,7 @@ form{
     #small-screen{
         position:fixed;
         display:block;
-        padding-top:80px;
+        padding-top:20px;
     }
     .small-screen{
         margin-top: 50px;
@@ -467,5 +467,6 @@ form{
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.9);
         color:whitesmoke;
+        padding: 10px;
     }
 }

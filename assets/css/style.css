@@ -277,6 +277,16 @@ nav a{
     justify-content: center;
 }
 
+.hidden{
+    border-width: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
 /* ----- Contact Form ----- */
 form{
     padding: 20px;

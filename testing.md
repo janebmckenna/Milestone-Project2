@@ -82,9 +82,18 @@
 
 ## Compliant Code
 
-(W3C HTML validator)[https://validator.w3.org/]
-(CSS validator Jigsaw)[http://jigsaw.w3.org/css-validator/validator$link]
-(JavaScript linter)[https://www.jslint.com/]
+[W3C HTML validator](https://validator.w3.org/)
+
+All pages of HTML pass through the validator without any issues.
+
+[CSS validator Jigsaw](http://jigsaw.w3.org/css-validator/validator$link)
+
+No errors were returned when the css was passed through the validator by direct input
+
+[JavaScript linter](https://www.jslint.com/)
+
+I used JSLint to validate my Javascript, initally the level of warnings returned was very high mainly concerned with the use of single quotes instead of double quotes and alphabetical order in objects. On reviewing the functionality I discovered that I could 'allow' perameters to the check. This then reduced the warnings to a reviewable level. I had instances of additional semi colons in the code which I removed.
+
 ## Bugs
 
 |**Bug**|**Resolution**|

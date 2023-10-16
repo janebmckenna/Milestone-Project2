@@ -80,6 +80,12 @@
 
 ## Lighthouse Audit
 
+![Index](assets/images/testing/Lighthouse%20Audit%20-%20index.png)
+
+WhenI initally ran the lighthouse audit there were two what I deemed significant issues
+1. Meta decription. While this isn't really nessicary for this project I felt it would be best practice to add. 
+2. No label for the input box on the Maths game for accessibility purposes. 
+   
 ## Compliant Code
 
 [W3C HTML validator](https://validator.w3.org/)

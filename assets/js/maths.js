@@ -1,34 +1,34 @@
 // ----- Listen for the enter key so that the user can use the keypad intead of the mouse ----
-document.getElementById('answer-box').addEventListener('keydown', function(event){
-    if (event.key === 'Enter'){
-        if (document.getElementById('answer-box').value == ""){
+document.getElementById('answer-box').addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        if (document.getElementById('answer-box').value == "") {
             console.log('empty answer box');
-            alert ("Enter your answer please");
+            alert("Enter your answer please");
             return false;
-        } else {checkAnswer();}
-    } 
+        } else { checkAnswer(); }
+    }
 });
 runGame();
 
-function runGame(){
-    let gameType = Math.floor(Math.random()* 4) + 1;
-    let num1 = Math.floor(Math.random() *25) + 1;
+function runGame() {
+    let gameType = Math.floor(Math.random() * 4) + 1;
+    let num1 = Math.floor(Math.random() * 25) + 1;
     let num2 = Math.floor(Math.random() * 25) + 1;
     let num3 = num1 * num2;
     document.getElementById('win').style.display = ('none');
     document.getElementById('loss').style.display = ('none');
     document.getElementById('answer-box').value = '';
 
-    if (gameType === 1){
+    if (gameType === 1) {
         displayAdditionQuestion(num1, num2);
     }
-    else if (gameType === 2){
+    else if (gameType === 2) {
         displayMultiplicationQuestion(num1, num2);
     }
-    else if (gameType === 3){
+    else if (gameType === 3) {
         displaySubtractionQuestion(num1, num2);
     }
-    else if (gameType === 4){
+    else if (gameType === 4) {
         displayDivisionQuestion(num3, num2);
     }
     else {
@@ -60,23 +60,23 @@ function displayDivisionQuestion(operand1, operand2) {
     document.getElementById('operator').textContent = '/';
 }
 
-function checkAnswer(){
-   let answer = parseInt(document.getElementById('answer-box').value);
-   let correctAnswer = calculateAnswer();
-   let isCorrect = answer === correctAnswer[0];
-     if(isCorrect){
-     document.getElementById('win').style.display = ('flex');
-     incrementScore();
-     setTimeout(runGame, 2000);
-   } else {
-       document.getElementById('loss').style.display = ('flex');
-       document.getElementById('loss-text').innerHTML = `The correct answer was: ${correctAnswer}`;
-       incrementLoss();
-       setTimeout(runGame, 2000);
-   }
+function checkAnswer() {
+    let answer = parseInt(document.getElementById('answer-box').value);
+    let correctAnswer = calculateAnswer();
+    let isCorrect = answer === correctAnswer[0];
+    if (isCorrect) {
+        document.getElementById('win').style.display = ('flex');
+        incrementScore();
+        setTimeout(runGame, 2000);
+    } else {
+        document.getElementById('loss').style.display = ('flex');
+        document.getElementById('loss-text').innerHTML = `The correct answer was: ${correctAnswer}`;
+        incrementLoss();
+        setTimeout(runGame, 2000);
+    }
 }
 
-function calculateAnswer(){
+function calculateAnswer() {
     let operand1 = parseInt(document.getElementById('operand1').innerText);
     let operand2 = parseInt(document.getElementById('operand2').innerText);
     let operator = document.getElementById('operator').innerText;
@@ -96,18 +96,18 @@ function calculateAnswer(){
 
 // ----- Change the displayed score ----
 
-function incrementScore(){
+function incrementScore() {
     let oldScore = parseInt(document.getElementById('score').innerText);
     document.getElementById('score').innerText = ++oldScore;
 }
 
-function incrementLoss(){
+function incrementLoss() {
     let oldScore = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++oldScore;
 }
 
-function resetGame(){
-    document.getElementById('score').innerHTML='0';
-    document.getElementById('incorrect').innerHTML='0';
+function resetGame() {
+    document.getElementById('score').innerHTML = '0';
+    document.getElementById('incorrect').innerHTML = '0';
     runGame();
 }

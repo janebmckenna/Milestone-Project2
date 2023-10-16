@@ -172,7 +172,7 @@ If you wish to create a fork of this repository advice can be found [here](https
 
 - While writing the 'Contact Us' section of the project I referred back to the code I had written during using APIs modules of the course. 
 
-- In trying to ensure the site was accessible I ran into a problem with the label for the input box on the maths game. I used (this site)[https://css-tricks.com/html-inputs-and-labels-a-love-story/#:~:text=Not%20all%20inputs%20need%20labels&text=An%20input%20with%20type%3D%22hidden,happiest%20with%20a%20label%20companion.] to ensure a screen reader could see a label but it didnt impact the layout. 
+- In trying to ensure the site was accessible I ran into a problem with the label for the input box on the maths game. I used [this site](https://css-tricks.com/html-inputs-and-labels-a-love-story/#:~:text=Not%20all%20inputs%20need%20labels&text=An%20input%20with%20type%3D%22hidden,happiest%20with%20a%20label%20companion.) to ensure a screen reader could see a label but it didnt impact the layout. 
 
 I used this code 
 .hidden{

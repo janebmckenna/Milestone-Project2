@@ -63,7 +63,7 @@ function displayDivisionQuestion(operand1, operand2) {
 function checkAnswer() {
     let answer = parseInt(document.getElementById('answer-box').value);
     let correctAnswer = calculateAnswer();
-    let isCorrect = answer === correctAnswer[0];
+    let isCorrect = answer === correctAnswer;
     if (isCorrect) {
         document.getElementById('win').style.display = ('flex');
         incrementScore();
@@ -82,15 +82,15 @@ function calculateAnswer() {
     let operator = document.getElementById('operator').innerText;
 
     if (operator === '+') {
-        return [operand1 + operand2];
+        return (operand1 + operand2);
     } else if (operator === 'x') {
-        return [operand1 * operand2];
+        return (operand1 * operand2);
     }
     else if (operator === '-') {
-        return [operand1 - operand2];
+        return (operand1 - operand2);
     }
     else if (operator === '/') {
-        return [operand1 / operand2];
+        return (operand1 / operand2);
     }
 }
 

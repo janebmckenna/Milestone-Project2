@@ -24,11 +24,10 @@ function resetGame() {
 //  * @returns victory messge if the letter completes the hangman game
 //  */
 function correctLetter(letter) {
-    for (i = 0; i <= currentWord.length; i++) {
+    for (let i = 0; i <= currentWord.length; i++) {
         if (letter === currentWord.at(i)) {
             document.getElementsByTagName('li')[i].innerHTML = currentWord.at(i);
             let add = correctLetters.push(letter);
-            continue;
         };
     };
     if (correctLetters.length === currentWord.length) {

@@ -80,8 +80,11 @@
 
 ## Lighthouse Audit
 
-## Validator Audit
+## Compliant Code
 
+(W3C HTML validator)[https://validator.w3.org/]
+(CSS validator Jigsaw)[http://jigsaw.w3.org/css-validator/validator$link]
+(JavaScript linter)[https://www.jslint.com/]
 ## Bugs
 
 |**Bug**|**Resolution**|

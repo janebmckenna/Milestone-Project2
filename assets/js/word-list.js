@@ -365,5 +365,5 @@ const wordList = [
     {
         word: 'teabag',
         hint: 'ingredient in a hot drink'
-    },
+    }
 ];

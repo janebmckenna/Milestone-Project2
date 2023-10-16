@@ -46,24 +46,24 @@
     <!-- *** Win Screen *** -->
         <div id="win">
             <div class="win-content">
-                <iframe src="https://giphy.com/embed/3o85xK9ReqLLQD8GL6" width="188" height="240" frameBorder="0"
+                <iframe src="https://giphy.com/embed/3o85xK9ReqLLQD8GL6" width="188" height="240"
                     class="gif"></iframe>
                 <br>
                 <h2 class="game-end">Congratulations! You got it right!</h2>
-                <button class="btn btn-lrg btn-outline-secondary game-endonclick="runGame()" autofocus>Play Again</button>
+                <button class="btn btn-lrg btn-outline-secondary game-end" onclick="runGame()">Play Again</button>
             </div>
         </div>
     <!-- *** Loss Screen *** -->
         <div id="loss">
             <div class="loss-content">
-                <iframe src="https://giphy.com/embed/meJM4BcF1K6elGxBnn" width="240" height="240" frameBorder="0"
+                <iframe src="https://giphy.com/embed/meJM4BcF1K6elGxBnn" width="240" height="240"
                     class="gif"></iframe>
                 <br>
                 <h2 class="game-end">Game Over</h2>
                 <br>
                 <p class="game-end" id="loss-text"></p>
                 <br>
-                <button class="btn btn-lrg btn-dark game-end" onclick="runGame()" autofocus>Play Again</button>
+                <button class="btn btn-lrg btn-dark game-end" onclick="runGame()">Play Again</button>
             </div>
         </div>
     <footer>

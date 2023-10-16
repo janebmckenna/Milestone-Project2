@@ -170,5 +170,7 @@ If you wish to create a fork of this repository advice can be found [here](https
 
 - While writing the 'Adds & Equals' section of the project I referred back to pieces of code I had written during the course for the Love Maths project. I wanted to improve on the game by making it randomly generate the type of game. 
 
+- While writing the 'Contact Us' section of the project I referred back to the code I had written during using APIs modules of the course. 
+
 
 giphy - gifs

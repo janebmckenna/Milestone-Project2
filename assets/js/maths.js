@@ -2,10 +2,10 @@
 document.getElementById('answer-box').addEventListener('keydown', function(event){
     if (event.key === 'Enter'){
         if (document.getElementById('answer-box').value == ""){
-            console.log('empty answer box')
+            console.log('empty answer box');
             alert ("Enter your answer please");
             return false;
-        } else checkAnswer();
+        } else {checkAnswer();}
     } 
 });
 runGame();
@@ -34,7 +34,7 @@ function runGame(){
     else {
         alert(`Unknown game type: ${gameType}`);
     }
-};
+}
 // ----- Display the game -----
 function displayAdditionQuestion(operand1, operand2) {
     document.getElementById('operand1').textContent = operand1;
@@ -74,7 +74,7 @@ function checkAnswer(){
        incrementLoss();
        setTimeout(runGame, 2000);
    }
-};
+}
 
 function calculateAnswer(){
     let operand1 = parseInt(document.getElementById('operand1').innerText);

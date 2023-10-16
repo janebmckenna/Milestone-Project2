@@ -16,5 +16,5 @@ function sendMail(contactForm){
             alert('Ops sorry there was a problem your email hasnt sent, please try again');
             });
     return false;
-};
+}
 

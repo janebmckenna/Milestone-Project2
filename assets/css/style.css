@@ -190,7 +190,7 @@ nav a{
     border-radius: 10px;
 }
 .game-end{
-    display: relative;
+    position: relative;
     margin: 20px;
 }
 
@@ -448,7 +448,7 @@ form{
         padding-top:80px;
     }
     .small-screen{
-        margin-top: 50px
+        margin-top: 50px;
         position:fixed;
         display: grid;
         height: 100%;

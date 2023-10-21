@@ -85,7 +85,7 @@ $('.help-button').mouseout(function () {
 });
 $('.help-button').click(function () {
     $('.help').css('display', 'flex');
-    setTimeout($('.help').css('display', 'none'), 10000);
+    setTimeout(function(){$('.help').css('display', 'none')}, 10000);
 });
 // $('.help-button').bind('tap', (function () {
 //     $('.help').css('display', 'flex');

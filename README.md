@@ -54,10 +54,12 @@ The site will be written using html and css with javascript controlling the game
 **Existing Features**
 
 **Home/Choose Game Page**
+![Nav Image](assets/images/testing/Nav-Home.png) ![Nav Image](assets/images/testing/nav-other.png)
 
 Due to the simple layout of the site I did not feel the need to include a classic Nav bar with navigation to the two games included on the site. I felt that the 'Choose Game' link to the home page was in keeping with the retro feel of the site. 
 
 **The Idle Playground Logo**
+![Logo](assets/images/testing/logo.png)
 
 This is a retro logo for the idle playground with a simple tag line to indicate the relaxed nature of the games and subtly conveys the message that the games are just a bit of fun to play while you're passing some time. 
 
@@ -65,19 +67,43 @@ This is a retro logo for the idle playground with a simple tag line to indicate 
 
 Initial MPV will be two games Play Hangman and Play Adds and Equals
 
+**Footer**
+
+![Footer](assets/images/testing/footer-game.png)
+
+Contains the contact us link and also the help section within the games. 
+
 **Contact Us**
 
-Simple link which opens in a new window to allow users to send feedback. The simple form uses and API email.js to forward the details to me. 
+![Contact Us](assets/images/testing/contact.png)
+
+Simple link housed in the footer which opens in a new window to allow users to send feedback. The simple form uses and API email.js to forward the details to me. 
+
+**Help**
+
+![Hangman](assets/images/testing/help-hangman.png)
+![Maths](assets/images/testing/help-maths.png)
+
+When completing the testing I had overlooked the need for user help which I identified in my original user stories so I added in help within the games. While the current games cre very simple and intuitive this may be nessicary in future development and will keep the user experience consistent across games. The contact us feature fullfills any larger help requirements.
 
 **Hangman Game**
+
+![Hangman](assets/images/testing/hangman.png)
 
 Simple game written using Javascript, HTML and CSS. The keyboard is button based on the screen which allows the keys to visually disable for the user when they've already been played. The user has the option to trigger the Hint button to display a hint and resets to hidden when a new game is started. 
 
 **Adds & Equals Game**
 
+![Maths](assets/images/testing/maths.png)
+
 Simple maths game written using, Javascript, HTML and CSS. The game randomly chooses an addition, subtraction, multiplication or division game with two random numbers. The game tally’s the number of correct or incorrect responses. 
 
 **Win/Loss Screen**
+
+![win-hm](assets/images/testing/win-hm.png)
+![win-maths](assets/images/testing/win-maths.png)
+![loss-hm](assets/images/testing/loss-hm.png)
+![loss-maths](assets/images/testing/loss-maths.png)
 
 Once the game is won or lost the win/loss screen appears with confirmation and the correct answer as appropriate. Within the Adds & Equals game I have set the screen to automatically timeout after 2 seconds and start a new game, this is due to the fact that I've set the input as the focus when the DOM loads and I don’t want the user to have to click out of the input box. 
 
@@ -92,25 +118,51 @@ the range of words. Second option similarly is simple to execute but potentially
 
 **Future Improvements**
 
-
+- Additional games
+- Change the way words are generated for the hangman game to expand the gameplay.
+- Hangman - remove the keyboard, add an event listener and refactor the code to allow the game to be played on screens under 250px. 
+  
 ## UX-structure
 
 **Navigation**
 
 Due to the nature of the game site, I have deemed traditional navigation of the site unnecessary instead using the navigation bar to house 'Choose Game'. 
 
+**Game States**
 Buttons are used to navigate game states allowing users to start a new game at will. 
 
 **Game Pages**
 
+![Hangman](assets/images/testing/hangman.png)
+![Maths](assets/images/testing/maths.png)
 
+I have decided to use seperate html pages for each game. 
 
 **Footer**
 
-I've chosen to use the traditional footer space to house a contact us link which opens in a new tab and allows users to provide feedback and ideas to me. 
+![Footer](assets/images/testing/footer-game.png)
+
+I've chosen to use the traditional footer space to house a contact us link which opens in a new tab and allows users to provide feedback and ideas to me. Additionally on
+the game screens I've used the footer to house the help section.
 
 **Win/Loss Screens**
 
+![win-hm](assets/images/testing/win-hm.png)
+![win-maths](assets/images/testing/win-maths.png)
+![loss-hm](assets/images/testing/loss-hm.png)
+![loss-maths](assets/images/testing/loss-maths.png)
+
+I have chosen for these to appear laid over the top of the game in the background with
+an opaque background.
+
+**Display Under 250px**
+
+![under250px](assets/images/testing/under250px.png)
+
+At 250px or under the Hangman game becomes unplayable due to the size of the 
+keyboard and the display of the word to be guessed. I have therefore decided 
+to ovverlay a message to advise the user of this istead of having a poor game 
+experience.
 
 ## UX-skeleton
 
@@ -165,6 +217,8 @@ If you wish to create a fork of this repository advice can be found [here](https
 - My fonts were taken from [Google Fonts](https://fonts.google.com/)
 - [Bootstrap Version 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - Wireframes were created using [Balsamiq](https://balsamiq.com/)
+- [jQuery Mobile](https://api.jquerymobile.com/) I downloaded a reduced and minified version of jQuery Mobile to reduce what was being loaded.
+- Gifs where sourced from [Giphy](https://giphy.com/)
 
 **Code**
 
@@ -197,6 +251,3 @@ while the recommended code was:
       white-space: nowrap !important;
       width: 1px !important;
 }
-
-
-giphy - gifs

@@ -41,6 +41,12 @@
 |**Feature**     |**Action**     |**Expected Behaviour**     |**Result**     |
 |----------------|---------------|---------------------------|---------------|
 |Nav Bar|Click Choose Game|Navigates to index.html|Pass|
+|Footer - hangman game|Hover over Help on desktop device|Displays Help information|Pass|
+|Footer - hangman game|Stop hovering over Help on desktop device|Stops displaying Help information|Pass|
+|Footer - hangman game|Click on Help on mobile device|Displays Help information for 10 seconds|Pass|
+|Footer - maths game|Hover over Help on desktop device|Displays Help information|Pass|
+|Footer - maths game|Stop hovering over Help on desktop device|Stops displaying Help information|Pass|
+|Footer - maths game|click on Help on mobile device|Displays Help information for 10 seconds|Pass|
 |Footer|Click contact us|Opens contact.html in a new window|Pass|
 |Game Play buttons|Click Play Hangman|Opens hangman game in the same window|Pass|
 |Game Play buttons|Click Play Adds & Equals|Opens Adds & Equals game in the same window|Pass|
@@ -70,8 +76,8 @@
 |**User Story**|**Outcome**|
 |-----|-----|
 |_As a FIRST TIME user of the site I want to be able to:_|
-|Intuitively and easily navigate the site|The layout of the site is simple|
-|Intuitively be able to play the game/games|Users|
+|Intuitively and easily navigate the site|The layout of the site is simple and easy to navigate|
+|Intuitively be able to play the game/games||
 |Find help or instruction if necessary|
 |Play the games on a mobile device without the need for any additional downloads.|
 |_As a RETURNING user of the site I want to be able to:_|
@@ -82,7 +88,7 @@
 
 ![Index](assets/images/testing/Lighthouse%20Audit%20-%20index.png)
 
-WhenI initally ran the lighthouse audit there were two what I deemed significant issues
+When I initally ran the lighthouse audit there were two what I deemed significant issues
 1. Meta decription. While this isn't really nessicary for this project I felt it would be best practice to add. 
 2. No label for the input box on the Maths game for accessibility purposes. 
    

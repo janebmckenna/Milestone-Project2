@@ -78,11 +78,16 @@ $('.hint-title').click(function () {
 });
 
 $('.help-button').mouseover(function () {
-    $('.help').css('display','flex');
+    $('.help').css('display', 'flex');
 });
 $('.help-button').mouseout(function () {
     $('.help').css('display', 'none');
 });
-
+$('.help-button').taphold(function () {
+    $('.help').css('display', 'flex'),
+        function () {
+            $('.help').css('display', 'none');
+        };
+});
 newWord();
 console.log(wordList.length);

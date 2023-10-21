@@ -78,16 +78,17 @@ I considered using jest to test my project but in the end decided that I would m
 
 ## User Story Validation
 
-|**User Story**|**Outcome**|
-|-----|-----|
-|_As a FIRST TIME user of the site I want to be able to:_|
-|Intuitively and easily navigate the site|The layout of the site is simple and easy to navigate|
-|Intuitively be able to play the game/games||
-|Find help or instruction if necessary|
-|Play the games on a mobile device without the need for any additional downloads.|
-|_As a RETURNING user of the site I want to be able to:_|
-|Easily navigate to my favourite game|
-|Send feedback and ideas for more games to the website owner|
+|**User Story**|**Outcome**|**Screengrabs**|
+|-----|-----|-----|
+|**_FIRST TIME User_**|
+|Intuitively and easily navigate the site|The layout of the site is simple and easy to navigate|[Choose Game](assets/images/testing/nav-other.png) [Game Play Buttons](assets/images/testing/game-play.png)|
+|Intuitively be able to play the game/games|Game play is intuative and easyily grasped,all buttons are descriptive of their function|[Hangman Gameplay](assets/images/testing/hangman.png) / [Adds & Equals Gameplay](assets/images/testing/maths.png)
+|Find help or instruction if necessary|Simple reassuring instructions are available in the games. For more complex issues the user can utilise the contact us feature.|[Hangman Help](assets/images/testing/help-hangman.png) / [Adds & Equals Help](assets/images/testing/help-maths.png)
+|Play the games on a mobile device without the need for any additional downloads.|Games can be played on any device with a screen width greater than 250px straight from the browser|
+|**_RETURNING user_**|
+|Easily navigate to my favourite game|Games are easily accessed from the homepage|[Game Play Buttons](assets/images/testing/game-play.png)|
+|Send feedback and ideas for more games to the website owner|The user can send a contact email using the contact us form|[Contact Form](assets/images/testing/contact.png)|
+
 
 ## Lighthouse Audit
 
@@ -96,6 +97,8 @@ I considered using jest to test my project but in the end decided that I would m
 When I initally ran the lighthouse audit there were two what I deemed significant issues
 1. Meta decription. While this isn't really nessicary for this project I felt it would be best practice to add. 
 2. No label for the input box on the Maths game for accessibility purposes. 
+
+When I ran a final lighthouse audit prior to submission there was a best practice error originating from the minified jQuery mobile code.
    
 ## Compliant Code
 

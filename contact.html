@@ -1,79 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact page for the Idle playground: a retro game website">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact page for the Idle playground: a retro game website"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function () {
-            emailjs.init("i8ZCLJ4_OvXAxB2WN");
-        })();
+      (function () {
+        emailjs.init("i8ZCLJ4_OvXAxB2WN");
+      })();
     </script>
     <title>The Idle Playground | contact us</title>
-</head>
-<body>
-    <nav class="navbar bg-dark border-bottom border-body navbar-expand-md" data-bs-theme="dark">
-        <a href="index.html" class="navbar-brand logo">Home</a>
+  </head>
+  <body>
+    <nav
+      class="navbar bg-dark border-bottom border-body navbar-expand-md"
+      data-bs-theme="dark"
+    >
+      <a href="index.html" class="navbar-brand logo">Home</a>
     </nav>
     <div class="container">
-        <div class="row">
-            <div class="ip-logo">
-                <img src="assets/images/logo.png" alt="The idle playgound logo">
-                <p class="ip-text">Relax, click and waste some time</p>
-            </div>
+      <div class="row">
+        <div class="ip-logo">
+          <img src="assets/images/logo.png" alt="The idle playgound logo" />
+          <p class="ip-text">Relax, click and waste some time</p>
         </div>
+      </div>
     </div>
-<!-- Contact form -->
+    <!-- Contact form -->
     <div class="container contact-form">
-        <div class="row">
-            <div class="col-sm-1 col-md-2 col-lg-4"></div>
-            <div class="col-sm-10 col-md-8 col-lg-4">
-                <form onsubmit="return sendMail(this);">
-                    <label for="name" class="form-label">Name</label>
-                    <br>
-                    <input type="text" name="name" class="form" placeholder="Full Name" id="name" required>
-                    <br>
-                    <label for="emailaddress" class="form-label">Email</label>
-                    <br>
-                    <input type="email" name="emailaddress" class="form" placeholder="Email Address" id="emailaddress" required>
-                    <br>
-                    <p>Would you like to hear back from us?</p>
-                    <label for="yes" class="form-label">Yes</label>
-                    <input type="radio" id="yes" name="response" value="would like to hear back" required>
-                    <label for="no" class="form-label">No</label>
-                    <input type="radio" id="no" name="response" value="wouldn't like to hear back">
-                    <br>
-                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="What's on your mind? 
+      <div class="row">
+        <div class="col-sm-1 col-md-2 col-lg-4"></div>
+        <div class="col-sm-10 col-md-8 col-lg-4">
+          <form onsubmit="return sendMail(this);">
+            <label for="name" class="form-label">Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              class="form"
+              placeholder="Full Name"
+              id="name"
+              required
+            />
+            <br />
+            <label for="emailaddress" class="form-label">Email</label>
+            <br />
+            <input
+              type="email"
+              name="emailaddress"
+              class="form"
+              placeholder="Email Address"
+              id="emailaddress"
+              required
+            />
+            <br />
+            <p>Would you like to hear back from us?</p>
+            <label for="yes" class="form-label">Yes</label>
+            <input
+              type="radio"
+              id="yes"
+              name="response"
+              value="would like to hear back"
+              required
+            />
+            <label for="no" class="form-label">No</label>
+            <input
+              type="radio"
+              id="no"
+              name="response"
+              value="wouldn't like to hear back"
+            />
+            <br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="30"
+              rows="10"
+              placeholder="What's on your mind? 
                     
-If you have an idea for a new game we would love to hear it" required></textarea>
-                    <br>
-                    <p>What does your feedback relate to?</p>
-                    <input type="checkbox" id="game-problem" name="subject" value="Problem with a game">
-                    <label for="game-problem" class="form-label">Problem with a game</label>
-                    <br>
-                    <input type="checkbox" id="new-game" name="subject" value="New game idea">
-                    <label for="new-game" class="form-label">New game Idea</label>
-                    <br>
-                    <input type="checkbox" id="other" name="subject" value="Other feedback">
-                    <label for="other" class="form-label">Other</label>
-                    <br>
-                    <button type="submit" class="btn btn-dark">Send</button>
-                </form>
-            </div>
-            <div class="col-sm-1 col-md-2 col-lg-3"></div>
+If you have an idea for a new game we would love to hear it"
+              required
+            ></textarea>
+            <br />
+            <p>What does your feedback relate to?</p>
+            <input
+              type="checkbox"
+              id="game-problem"
+              name="subject"
+              value="Problem with a game"
+            />
+            <label for="game-problem" class="form-label"
+              >Problem with a game</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              id="new-game"
+              name="subject"
+              value="New game idea"
+            />
+            <label for="new-game" class="form-label">New game Idea</label>
+            <br />
+            <input
+              type="checkbox"
+              id="other"
+              name="subject"
+              value="Other feedback"
+            />
+            <label for="other" class="form-label">Other</label>
+            <br />
+            <button type="submit" class="btn btn-dark">Send</button>
+          </form>
         </div>
+        <div class="col-sm-1 col-md-2 col-lg-3"></div>
+      </div>
     </div>
     <script src="assets/js/contact.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

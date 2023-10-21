@@ -83,9 +83,9 @@ $('.help-button').mouseover(function () {
 $('.help-button').mouseout(function () {
     $('.help').css('display', 'none');
 });
-$('.help-button').bind('tap', (function () {
+$('.help-button').bind('taphold', (function () {
     $('.help').css('display', 'flex');
-    setTimeout($('.help').css('display', 'none'), 10000);
+    // setTimeout($('.help').css('display', 'none'), 10000);
 }));
 newWord();
 console.log(wordList.length);

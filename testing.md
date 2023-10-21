@@ -5,6 +5,7 @@
 ## Contents
 
 [Manual Testing](#manual-testing) \
+[Jest](#Jest)\
 [User Story Validation](#user-story-validation) \
 [Lighthouse Audit](#lighthouse-audit) \
 [Validator Testing](#validator-testing)\
@@ -70,6 +71,10 @@
 |Loss Screen - Hangman|Click Play Again|Loss screen disappears and a new Hangman game is displayed|Pass|
 |Win Screen - Adds & Equals|Click Play Again|Win screen disappears and a new Adds & Equals game is displayed|Pass|
 |Loss Screen - Adds & Equals|Click Play Again|Loss screen disappears and a new Adds & Equals game is displayed|Pass|
+
+## Jest
+
+I considered using jest to test my project but in the end decided that I would manually test on this occassion and practice using jest on another project using a strictly test driven development approach and red, green, refactor. On this project I kept jumping to the code I belived was the solution and I felt I needed to slow down and practice with Jest before using for a milestone/time senstive project. 
 
 ## User Story Validation
 

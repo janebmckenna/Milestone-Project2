@@ -54,11 +54,13 @@ The site will be written using html and css with javascript controlling the game
 **Existing Features**
 
 **Home/Choose Game Page**
+
 ![Nav Image](assets/images/testing/Nav-Home.png) ![Nav Image](assets/images/testing/nav-other.png)
 
 Due to the simple layout of the site I did not feel the need to include a classic Nav bar with navigation to the two games included on the site. I felt that the 'Choose Game' link to the home page was in keeping with the retro feel of the site. 
 
 **The Idle Playground Logo**
+
 ![Logo](assets/images/testing/logo.png)
 
 This is a retro logo for the idle playground with a simple tag line to indicate the relaxed nature of the games and subtly conveys the message that the games are just a bit of fun to play while you're passing some time. 
@@ -121,6 +123,7 @@ the range of words. Second option similarly is simple to execute but potentially
 - Additional games
 - Change the way words are generated for the hangman game to expand the gameplay.
 - Hangman - remove the keyboard, add an event listener and refactor the code to allow the game to be played on screens under 250px. 
+- Refactor code to reduce repetitive code. 
   
 ## UX-structure
 
@@ -134,6 +137,7 @@ Buttons are used to navigate game states allowing users to start a new game at w
 **Game Pages**
 
 ![Hangman](assets/images/testing/hangman.png)
+
 ![Maths](assets/images/testing/maths.png)
 
 I have decided to use seperate html pages for each game. 
@@ -251,3 +255,17 @@ while the recommended code was:
       white-space: nowrap !important;
       width: 1px !important;
 }
+
+**Images**
+
+All images used on the project I have generated myself. Gifs where sources from
+[Giphy](https://giphy.com/) 
+
+**Advice**
+
+I would like to thank my mentor for all his help and advice during the project. 
+Including:
+- Look and feel of the project, consistency of rounded corners. 
+- Advice on output of the JS validator, reassuring me of my thoughts that some of the output was overly critical and not nessicary. 
+- Use of switch statements and reducing repetitive code in the future.
+- Use of comment code 'js doc'

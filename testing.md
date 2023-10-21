@@ -21,8 +21,8 @@
 |Contact form opens in a new window| Yes| Yes|Yes|Yes|Yes|Yes|Yes|
 |Contact form won't submit without appropriate information| Yes | Yes|Yes|Yes|Yes|Yes|Yes|
 |Alert appears when form is submitted|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|Yes|Yes|Under 320px the buttons begin to move lines. I made the deccission not to adjust the size of the buttons to ensure the game remains playable|
-|Hangman blank letters are visable as the game is played|Yes|Yes|Yes|Yes|Yes| Yes|Screens under 250px wide the game becomes unplayable - added media query to alert user in this senario|
+|Keyboard is playable on Hangman|Yes| Yes|Yes|Yes|Yes|Yes|Under 320px the buttons begin to move lines. I made the decision not to adjust the size of the buttons to ensure the game remains playable|
+|Hangman blank letters are visible as the game is played|Yes|Yes|Yes|Yes|Yes| Yes|Screens under 250px wide the game becomes unplayable - added media query to alert user in this scenario|
 
 
 |**Additional Devices Tested Using Chrome Developer Tools**|**Responsive Observations**
@@ -65,7 +65,7 @@
 |Contact Us Page|Click Send with non email text in email field|Pop up: Please include an '@' in the email address |Pass|
 |Contact Us Page|Click Send without toggling a contact radio button |Pop up: Please select one of these options |Pass|
 |Contact Us Page|Click Send without filling in 'whats on your mind'|Pop up: Please Fill in this Field |Pass|
-|Contact Us Page|Click Send without sellecting what the feedback is in relation to|As this is not essential, form submits and alert appears: Your email has been sent - thank you have a great day!|Pass|
+|Contact Us Page|Click Send without selecting what the feedback is in relation to|As this is not essential, form submits and alert appears: Your email has been sent - thank you have a great day!|Pass|
 |Contact Us Page|Click Send with all fields provided |form submits and alert appears: Your email has been sent - thank you have a great day!|Pass|
 |Win Screen - Hangman|Click Play Again|Win screen disappears and a new Hangman game is displayed|Pass|
 |Loss Screen - Hangman|Click Play Again|Loss screen disappears and a new Hangman game is displayed|Pass|
@@ -74,7 +74,7 @@
 
 ## Jest
 
-I considered using jest to test my project but in the end decided that I would manually test on this occassion and practice using jest on another project using a strictly test driven development approach and red, green, refactor. On this project I kept jumping to the code I belived was the solution and I felt I needed to slow down and practice with Jest before using for a milestone/time senstive project. 
+I considered using jest to test my project but in the end decided that I would manually test on this occasion and practice using jest on another project using a strictly test driven development approach and red, green, refactor. On this project I kept jumping to the code I believed was the solution and I felt I needed to slow down and practice with Jest before using for a milestone/time sensitive project. 
 
 ## User Story Validation
 
@@ -82,7 +82,7 @@ I considered using jest to test my project but in the end decided that I would m
 |-----|-----|-----|
 |**_FIRST TIME User_**|
 |Intuitively and easily navigate the site|The layout of the site is simple and easy to navigate|[Choose Game](assets/images/testing/nav-other.png) [Game Play Buttons](assets/images/testing/game-play.png)|
-|Intuitively be able to play the game/games|Game play is intuative and easyily grasped,all buttons are descriptive of their function|[Hangman Gameplay](assets/images/testing/hangman.png) / [Adds & Equals Gameplay](assets/images/testing/maths.png)
+|Intuitively be able to play the game/games|Game play is intuitive and easily grasped, all buttons are descriptive of their function|[Hangman Gameplay](assets/images/testing/hangman.png) / [Adds & Equals Gameplay](assets/images/testing/maths.png)
 |Find help or instruction if necessary|Simple reassuring instructions are available in the games. For more complex issues the user can utilise the contact us feature.|[Hangman Help](assets/images/testing/help-hangman.png) / [Adds & Equals Help](assets/images/testing/help-maths.png)
 |Play the games on a mobile device without the need for any additional downloads.|Games can be played on any device with a screen width greater than 250px straight from the browser|
 |**_RETURNING user_**|
@@ -94,8 +94,8 @@ I considered using jest to test my project but in the end decided that I would m
 
 ![Index](assets/images/testing/Lighthouse%20Audit%20-%20index.png)
 
-When I initally ran the lighthouse audit there were two issues that I deemed significant but resolvable issues
-1. Meta decription. While this isn't really nessicary for this project I felt it would be best practice to add. 
+When I initially ran the lighthouse audit there were two issues that I deemed significant but resolvable issues
+1. Meta description. While this isn't really necessary for this project I felt it would be best practice to add. 
 2. No label for the input box on the Maths game for accessibility purposes. 
 
 ![Final Lighthouse Audit - Maths game](assets/images/testing/Final-lighthouse-maths.png)
@@ -118,16 +118,16 @@ No errors were returned when the css was passed through the validator by direct 
 
 [JavaScript linter](https://www.jslint.com/)
 
-I used JSLint to validate my Javascript, initally the level of warnings returned was very high mainly concerned with the use of single quotes instead of double quotes and alphabetical order in objects. On reviewing the functionality I discovered that I could 'allow' perameters to the check. This then reduced the warnings to a reviewable level. I had instances of additional semi colons in the code which I removed and I had incorrectly used continue in a for loop. jsLint continues to show high levels of warnings such as document undeclared and $ undeclared. I concluded that the remaining errors should not be considered due to them refering to the DOM and/or other libaries or scripts. I reviewed the warnings with my Mentor who was in agreement with my conclusion with one exception I have missed a let in a loop, which I corrected. 
+I used JSLint to validate my Javascript, initially the level of warnings returned was very high mainly concerned with the use of single quotes instead of double quotes and alphabetical order in objects. On reviewing the functionality I discovered that I could 'allow' parameters to the check. This then reduced the warnings to a reviewable level. I had instances of additional semi colons in the code which I removed and I had incorrectly used continue in a for loop. jsLint continues to show high levels of warnings such as document undeclared and $ undeclared. I concluded that the remaining errors should not be considered due to them referring to the DOM and/or other libraries or scripts. I reviewed the warnings with my Mentor who was in agreement with my conclusion with one exception I have missed a let in a loop, which I corrected. 
 
 ## Bugs
 
 |**Bug**|**Resolution**|
 |-----|-----|
-|sendMail|Write better notes to myself on what bugs I fixed|
+|sendMail|I encountered a bug, truthfully I made an error when setting up the sendMail function. I now cannot remember what it was or how I fixed it so the lesson I have learnt is to improve the notes I write to myself on bugs I encounter during the development process. I added the alert to the user as part of the fix.|
 |Correctly guessed letters not displaying in the correct position|I had forgotten to include the li items used in the Nav when I calculated the code for displayGuessedLetters|
 |Unused page called mole.html displaying on every button press|I missed a closing angle bracket on a holding nav item|
 |Hangman game whilst responsive to the screen size was unplayable due to the small buttons and word display| refactored the code to ensure word and the buttons displayed correctly on small screens and remained playable|
-|Maths game submitting empty field|As I had an autofocus on the input field the maths game was submitting empty fields when the win or loss screens were displayed. I tried adding a required field to the input which didnt work. To solve the problem I amended the event listener to not run check answer when the field was empty|
+|Maths game submitting empty field|As I had an autofocus on the input field the maths game was submitting empty fields when the win or loss screens were displayed. I tried adding a required field to the input which didn’t work. To solve the problem I amended the event listener to not run check answer when the field was empty|
 
 [Return to README](README.md)

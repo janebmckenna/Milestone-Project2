@@ -1,5 +1,7 @@
-
-// Contact Form Functions
+/**
+ * sends email to janemckenna@hotmail.com using email.js content based on user input.
+ * Alerts the user if contact has been successfully sent or not. 
+ */
 function sendMail(contactForm) {
     emailjs.send('gmail', 'game-site', {
         'from_name': contactForm.name.value,

@@ -94,11 +94,15 @@ I considered using jest to test my project but in the end decided that I would m
 
 ![Index](assets/images/testing/Lighthouse%20Audit%20-%20index.png)
 
-When I initally ran the lighthouse audit there were two what I deemed significant issues
+When I initally ran the lighthouse audit there were two issues that I deemed significant but resolvable issues
 1. Meta decription. While this isn't really nessicary for this project I felt it would be best practice to add. 
 2. No label for the input box on the Maths game for accessibility purposes. 
 
+![Final Lighthouse Audit - Maths game](assets/images/testing/Final-lighthouse-maths.png)
+
 When I ran a final lighthouse audit prior to submission there was a best practice error originating from the minified jQuery mobile code.
+
+Some additional improvements to performance could be made, reducing the image size and number of scripts to improve the load time.
    
 ## Compliant Code
 
@@ -106,13 +110,15 @@ When I ran a final lighthouse audit prior to submission there was a best practic
 
 All pages of HTML pass through the validator without any issues.
 
-[CSS validator Jigsaw](http://jigsaw.w3.org/css-validator/validator$link)
+[CSS validator Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-No errors were returned when the css was passed through the validator by direct input
+![CSS](assets/images/testing/css.png)
+
+No errors were returned when the css was passed through the validator by direct input.
 
 [JavaScript linter](https://www.jslint.com/)
 
-I used JSLint to validate my Javascript, initally the level of warnings returned was very high mainly concerned with the use of single quotes instead of double quotes and alphabetical order in objects. On reviewing the functionality I discovered that I could 'allow' perameters to the check. This then reduced the warnings to a reviewable level. I had instances of additional semi colons in the code which I removed.
+I used JSLint to validate my Javascript, initally the level of warnings returned was very high mainly concerned with the use of single quotes instead of double quotes and alphabetical order in objects. On reviewing the functionality I discovered that I could 'allow' perameters to the check. This then reduced the warnings to a reviewable level. I had instances of additional semi colons in the code which I removed and I had incorrectly used continue in a for loop. jsLint continues to show high levels of warnings such as document undeclared and $ undeclared. I concluded that the remaining errors should not be considered due to them refering to the DOM and/or other libaries or scripts. I reviewed the warnings with my Mentor who was in agreement with my conclusion with one exception I have missed a let in a loop, which I corrected. 
 
 ## Bugs
 

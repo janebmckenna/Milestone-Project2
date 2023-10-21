@@ -1,7 +1,7 @@
 // ----- Listen for the enter key so that the user can use the keypad intead of the mouse ----
 document.getElementById('answer-box').addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
-        if (document.getElementById('answer-box').value == "") {
+        if (document.getElementById('answer-box').value === "") {
             console.log('empty answer box');
             alert("Enter your answer please");
             return false;

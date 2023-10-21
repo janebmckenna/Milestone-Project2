@@ -112,4 +112,3 @@ if (deviceWidth > 990) {
     });
 }
 newWord();
-console.log(wordList.length);

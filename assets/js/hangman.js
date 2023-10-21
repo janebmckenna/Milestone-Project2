@@ -77,19 +77,19 @@ $('.hint-title').click(function () {
     $('.hint').toggle('fast');
 });
 
-$('.help-button').mouseover(function () {
-    $('.help').css('display', 'flex');
-});
-$('.help-button').mouseout(function () {
-    $('.help').css('display', 'none');
-});
-$('.help-button').click(function () {
-    $('.help').css('display', 'flex');
-    setTimeout(function(){$('.help').css('display', 'none')}, 10000);
-});
-// $('.help-button').bind('tap', (function () {
-//     $('.help').css('display', 'flex');
-//     // setTimeout($('.help').css('display', 'none'), 10000);
-// }));
+let deviceWidth = window.innerWidth;
+if (deviceWidth > 990) {
+    $('.help-button').mouseover(function () {
+        $('.help').css('display', 'flex');
+    });
+    $('.help-button').mouseout(function () {
+        $('.help').css('display', 'none');
+    });
+} else {
+    $('.help-button').click(function () {
+        $('.help').css('display', 'flex');
+        setTimeout(function () { $('.help').css('display', 'none'); }, 10000);
+    });
+}
 newWord();
 console.log(wordList.length);

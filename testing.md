@@ -120,6 +120,10 @@ No errors were returned when the css was passed through the validator by direct 
 
 I used JSLint to validate my Javascript, initially the level of warnings returned was very high mainly concerned with the use of single quotes instead of double quotes and alphabetical order in objects. On reviewing the functionality I discovered that I could 'allow' parameters to the check. This then reduced the warnings to a reviewable level. I had instances of additional semi colons in the code which I removed and I had incorrectly used continue in a for loop. jsLint continues to show high levels of warnings such as document undeclared and $ undeclared. I concluded that the remaining errors should not be considered due to them referring to the DOM and/or other libraries or scripts. I reviewed the warnings with my Mentor who was in agreement with my conclusion with one exception I have missed a let in a loop, which I corrected. 
 
+[JSHint](jshint.com)
+
+Prior to submitting, while completing the checklist for myself an additional validator which I passed my JS thorugh to be careful. I was satifised and reassured by the results. 
+
 ## Bugs
 
 |**Bug**|**Resolution**|

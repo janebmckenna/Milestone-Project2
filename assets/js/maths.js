@@ -111,3 +111,10 @@ function resetGame() {
     document.getElementById('incorrect').innerHTML = '0';
     runGame();
 }
+
+$('.help-button').mouseover(function () {
+    $('.help').css('display', 'flex');
+});
+$('.help-button').mouseout(function () {
+    $('.help').css('display', 'none');
+});

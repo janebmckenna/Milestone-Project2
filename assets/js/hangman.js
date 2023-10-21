@@ -77,5 +77,12 @@ $('.hint-title').click(function () {
     $('.hint').toggle('fast');
 });
 
+$('.help-button').mouseover(function () {
+    $('.help').css('display','flex');
+});
+$('.help-button').mouseout(function () {
+    $('.help').css('display', 'none');
+});
+
 newWord();
 console.log(wordList.length);

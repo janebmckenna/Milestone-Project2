@@ -42,6 +42,13 @@ footer{
 
 footer a{
     color: aliceblue;
+    display: inline;
+}
+
+.help-button{
+    color: aliceblue;
+    display: inline;
+    float: left;
 }
 
 .game-choice{
@@ -198,6 +205,28 @@ nav a{
     margin: 20px;
 }
 
+.help {
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.help-content {
+    display: grid;
+    background-color: aliceblue;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.help-content img{
+    position: relative;
+    margin: auto;
+    display: block;
+}
 /* ** ------- Adds & Equals ------- ** */
 
 .maths-game{

@@ -120,5 +120,5 @@ $('.help-button').mouseout(function () {
 });
 $('.help-button').on('tap',(function () {
     $('.help').css('display', 'flex');
-    setTimeout($('.help').css('display', 'none'), 10000)
-});
+    setTimeout($('.help').css('display', 'none'), 10000);
+}));

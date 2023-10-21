@@ -100,7 +100,7 @@ When I initially ran the lighthouse audit there were two issues that I deemed si
 
 ![Final Lighthouse Audit - Maths game](assets/images/testing/Final-lighthouse-maths.png)
 
-When I ran a final lighthouse audit prior to submission there was a best practice error originating from the minified jQuery mobile code.
+When I ran a final lighthouse audit prior to submission there was a best practice error originating from the minified jQuery mobile code. I decided to remove this code as I was no longer using it. 
 
 Some additional improvements to performance could be made, reducing the image size and number of scripts to improve the load time.
    
